@@ -1,10 +1,10 @@
 ---
-layout: home
+layout: podcast
 ---
 <div class="home">
 
   {% for post in site.posts %}
-    {% if post.type == "podcast" %}
+    {% if post.type == "post" %}
 
     {% else %}
       <div class="post-contain {% if post.type == 'post' %}post{% elsif post.type=='podcast'%}podcast{%endif%}">

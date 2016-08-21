@@ -2,3 +2,57 @@ p {
   line-height: 35px;
   font-size: 18px;
 }
+
+.sidebar {
+  position: absolute;
+  left: 40px;
+  margin-top: 100px;
+
+  h1 {
+    color: $brand-primary;
+    font-size: 24px;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 10px;
+    li {
+      margin-bottom: 10px;
+    }
+  }
+
+  .muted {
+    padding-bottom: 10px;
+  }
+}
+
+.footer-convert {
+  padding-bottom: 115px;
+  padding-top: 50px;
+  height: auto !important;
+}
+
+.site-footer {
+    margin-top: -70px;
+}
+
+.footer-menu {
+  text-align: center;
+  color: white;
+  border-top: 1px solid white;
+  padding-top: 20px;
+
+  li {
+    display: inline;
+    padding: 20px 60px 20px 0px;
+  }
+
+  a {
+    color: white;
+  }
+}
+
+.footer-border {
+
+}

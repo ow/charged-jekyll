@@ -3,10 +3,15 @@ h1, h2, h3 {
   font-weight: 700;
   letter-spacing: 1px;
   font-size: 50px;
+  color: $brand-primary;
 }
 
 p, body {
   font-family: $p-stack;
+}
+
+.muted {
+  color: #949494;
 }
 
 .center {
@@ -25,8 +30,20 @@ p, body {
   align-items: center;
 }
 
+.podcast {
+  a, .sidebar h1 {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(-209deg, #2C6DFF 0%, #453AE4 100%);
+  }
+}
+
 a:hover {
   background: linear-gradient(-209deg, #B22CFF 0%, #453AE4 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }

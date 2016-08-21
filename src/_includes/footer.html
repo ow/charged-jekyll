@@ -1,38 +1,17 @@
+{% include footer-convert.html %}
 <footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.author.github %}
-          <li>
-            {% include icon-github.html username=site.author.github %}
-          </li>
-          {% endif %}
-
-          {% if site.author.twitter %}
-          <li>
-            {% include icon-twitter.html username=site.author.twitter %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 footer-border">
+      <ul class="footer-menu">
+        <li>Home</li>
+        <li>Podcast</li>
+        <li>About</li>
+        <li>Sponsor</li>
+        <li>Say Hi</li>
+        <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></li>
+      </ul>
     </div>
-
   </div>
-
+</div>
 </footer>
