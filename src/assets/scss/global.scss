@@ -1,0 +1,32 @@
+h1, h2, h3 {
+  font-family: $h-stack;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 50px;
+}
+
+p, body {
+  font-family: $p-stack;
+}
+
+.center {
+  text-align: center;
+}
+
+.v-center {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+
+  align-items: center;
+}
+
+a:hover {
+  background: linear-gradient(-209deg, #B22CFF 0%, #453AE4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
