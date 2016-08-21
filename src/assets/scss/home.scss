@@ -12,8 +12,40 @@ article {
   width: 100%;
 }
 
+.home {
+  margin-top: 100px;
+
+  .podcast h2 {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(-209deg, #2C6DFF 0%, #453AE4 100%);
+  }
+
+  .post h2 {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(-226deg, #E43A54 0%, #E43E3A 100%);
+  }
+
+  .post-contain {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .excerpt {
+    margin-top: 25px;
+  }
+
+  .featured {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    max-width: 110%;
+    margin-left: -5%;
+  }
+}
+
 .convert {
-  background-image: linear-gradient(-209deg, #B22CFF 0%, #453AE4 100%);
+  background-image: linear-gradient(-226deg, #E43A54 0%, #E43E3A 100%);
   height: 490px;
   color: white;
 
