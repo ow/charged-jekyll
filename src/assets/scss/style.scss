@@ -2,9 +2,9 @@
 The main SCSS file for everything, yep
 */
 
+@import "variables";
 @import "main";
 @import "global";
-@import "variables";
 @import "base";
 @import "layout";
 @import "syntax-highlighting";
