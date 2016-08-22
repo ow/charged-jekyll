@@ -39,9 +39,7 @@ p, body {
 }
 
 a:hover {
-  background: linear-gradient(-209deg, #B22CFF 0%, #453AE4 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  text-decoration: none;
 }
 
 .uppercase {

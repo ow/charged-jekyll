@@ -1,19 +1,21 @@
 ---
 layout: podcast
 ---
-<div class="home">
+<div class="col-lg-6 col-lg-offset-3">
+  <div class="home">
 
-  {% for post in site.posts %}
-    {% if post.type == "post" %}
+    {% for post in site.posts %}
+      {% if post.type == "post" %}
 
-    {% else %}
-      <div class="post-contain {% if post.type == 'post' %}post{% elsif post.type=='podcast'%}podcast{%endif%}">
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><h2>{{ post.title }}</h2></a>
-        {%if post.featured%}
-        <img class="featured" src="{{post.featured}}">
-        {% endif %}
-        <p class="excerpt">{{post.excerpt}}</p>
-      </div>
-    {% endif %}
-  {% endfor %}
+      {% else %}
+        <div class="post-contain {% if post.type == 'post' %}post{% elsif post.type=='podcast'%}podcast{%endif%}">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><h2>{{ post.title }}</h2></a>
+          {%if post.featured%}
+          <img class="featured" src="{{post.featured}}">
+          {% endif %}
+          <p class="excerpt">{{post.excerpt}}</p>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
 </div>

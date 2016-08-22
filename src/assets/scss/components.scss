@@ -129,4 +129,10 @@
   @extend .convert;
 
   background-image: linear-gradient(-209deg, #2C6DFF 0%, #453AE4 100%);
+
+  h1 {
+    color: White;
+    background-image: none;
+    -webkit-text-fill-color: white;
+  }
 }
