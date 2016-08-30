@@ -1,6 +1,18 @@
-p {
+p, ul {
   line-height: 35px;
   font-size: 18px;
+}
+
+.close-modal {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  height: 30px;
+  width: 30px;
+
+  svg {
+    fill: white;
+  }
 }
 
 .sidebar {
