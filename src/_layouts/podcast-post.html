@@ -22,7 +22,11 @@ layout: podcast
           {{ content }}
         </div>
       </div>
+    {% if page.comments %}
+    <div class="col-lg-6 col-lg-offset-3">
+      {% include disqus.html %}
     </div>
+    {% endif %}
   </div>
   </article>
 </div>
