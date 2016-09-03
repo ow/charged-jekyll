@@ -38,9 +38,11 @@ article {
 
 .podcast {
   h1, h2 {
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(-209deg, #2C6DFF 0%, #453AE4 100%);
+    color: $podcast-primary;
+  }
+
+  a {
+    color: $podcast-primary;
   }
 }
 

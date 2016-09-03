@@ -1,18 +1,24 @@
 ---
-layout: default
+layout: home
 ---
 <div class="contents">
-<article class="post">
-  <div class="row">
+  <article class="post-page" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="container">
+    <div class="row">
       <div class="col-lg-6 col-lg-offset-3">
-        <header class="post-header">
-          <h1 class="post-title">{{ page.title }}</h1>
-        </header>
-
-        <div class="post-content">
+        <h1>{{page.title}}</h1>
+        {%if page.featured%}
+          <img class="featured post-image" src="{{page.featured}}">
+        {% endif %}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 col-lg-offset-3">
+        <div class="post-content" itemprop="articleBody">
           {{ content }}
         </div>
       </div>
+    </div>
   </div>
-</article>
+  </article>
 </div>
