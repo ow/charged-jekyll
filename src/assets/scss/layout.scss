@@ -5,10 +5,13 @@ p, ul {
 
 .close-modal {
   position: absolute;
-  top: 5px;
-  right: 5px;
-  height: 30px;
-  width: 30px;
+  top: 20px;
+  right: 20px;
+
+  img {
+  height: 18px;
+  width: 18px;
+  }
   transition: all 0.5s ease;
 
   svg {
