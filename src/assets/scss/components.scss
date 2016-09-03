@@ -1,6 +1,7 @@
 .convert {
   background-image: linear-gradient(-226deg, #E43A54 0%, #E43E3A 100%);
   height: 490px;
+  transition: all 0.5s ease;
   color: white;
 
   h1 {
@@ -14,6 +15,14 @@
     font-weight: 700;
     background: transparent;
     border: none;
+  }
+
+  .collapse-hide {
+    display: none;
+  }
+
+  .collapse-show {
+    display: none;
   }
 
   .copy {
@@ -37,7 +46,6 @@
   }
 
   .signup {
-
     .group            {
       position:relative;
 
@@ -132,6 +140,32 @@
       to    { width:0; background:transparent; }
     }
   }
+
+      .form {
+      margin-top: 10px;
+    }
+
+  .header {
+
+
+    .signup-button {
+      background: white;
+      border-radius: 0px;
+      color: $brand-primary;
+      right: 15px;
+      top: 0px;
+    }
+
+    input {
+      border-bottom: 3px solid white;
+      font-size: 14px;
+      padding: 10px 10px 5px 5px;
+      &::placeholder {
+        font-size: 14px;
+        color: white;
+      }
+    }
+  }
 }
 
 .convert-podcast {
@@ -146,11 +180,27 @@
   }
 }
 
-.collapsed {
-  height: 40px;
-  transition: all 0.5s ease;
+.small {
+  h1 {
+    font-size: 18px;
+  }
+}
 
-  .collapse-hide {
+.collapsed {
+  height: 60px;
+  transition: all 0.5s ease;
+  display: block !important;
+
+  h1 {
+    line-height: 60px;
+  }
+
+  .collapse-show {
     display: none;
+  }
+
+  .close-modal {
+    transform: rotate(180deg);
+    transition: all 0.5s ease;
   }
 }

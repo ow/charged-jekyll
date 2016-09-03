@@ -5,10 +5,11 @@ p, ul {
 
 .close-modal {
   position: absolute;
-  top: 15px;
-  right: 15px;
+  top: 5px;
+  right: 5px;
   height: 30px;
   width: 30px;
+  transition: all 0.5s ease;
 
   svg {
     fill: white;
