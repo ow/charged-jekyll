@@ -1,8 +1,13 @@
 $(function() {
     var siteUrl = 'http://'+(document.location.hostname||document.location.host);
     $(document).delegate('a[href^="/"],a[href^="'+siteUrl+'"]', "click", function(e) {
-        e.preventDefault();
-        History.pushState({}, "", this.pathname);
+        console.log(this.pathname);
+        if(this.pathname != "/podcast") {
+          if(this.pathname != "/") {
+            e.preventDefault();
+            History.pushState({}, "", this.pathname);
+          }
+        }
     });
 
     History.Adapter.bind(window, 'statechange', function(){

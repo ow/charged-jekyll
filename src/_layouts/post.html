@@ -1,25 +1,27 @@
 ---
 layout: home
 ---
-<article class="contents post-page" itemscope itemtype="http://schema.org/BlogPosting">
-<div class="container">
-  <div class="row">
-    <div class="col-lg-6 col-lg-offset-3">
-      <header class="post-header">
-        <span class="post-meta muted uppercase"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</span>
-        <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-      </header>
-      {%if page.featured%}
-        <img class="featured post-image" src="{{page.featured}}">
-      {% endif %}
+<div class="contents">
+  <article class="post-page" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-lg-offset-3">
+        <header class="post-header">
+          <span class="post-meta muted uppercase"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</span>
+          <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+        </header>
+        {%if page.featured%}
+          <img class="featured post-image" src="{{page.featured}}">
+        {% endif %}
+      </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-6 col-lg-offset-3">
-      <div class="post-content" itemprop="articleBody">
-        {{ content }}
+    <div class="row">
+      <div class="col-lg-6 col-lg-offset-3">
+        <div class="post-content" itemprop="articleBody">
+          {{ content }}
+        </div>
       </div>
     </div>
   </div>
+  </article>
 </div>
-</article>

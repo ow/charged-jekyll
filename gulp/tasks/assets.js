@@ -26,6 +26,7 @@ gulp.task('scripts', () =>
   gulp.src([
     'src/assets/javascript/jquery-3.1.0.min.js',
     'src/assets/javascript/history.js',
+    'src/assets/javascript/nprogress.js',
     'src/assets/javascript/js.cookie.js',
     'src/assets/javascript/vendor.js',
     'src/assets/javascript/main.js'
