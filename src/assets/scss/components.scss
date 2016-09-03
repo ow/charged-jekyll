@@ -168,8 +168,12 @@
   }
 }
 
-.convert-podcast {
-  @extend .convert;
+.podcast-top {
+  .header {
+    .signup-button {
+      color: #453AE4;
+    }
+}
 
   background-image: linear-gradient(-209deg, #2C6DFF 0%, #453AE4 100%);
 
