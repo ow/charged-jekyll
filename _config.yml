@@ -31,9 +31,8 @@ limit_posts: 10
 
 # Permalink structure and pagination options
 permalink: pretty
-paginate: 6
-paginate_path: 'page:num'
-excerpt_separator: '<!--more-->'
+
+paginate: 5
 
 # Markdown library and options
 markdown: redcarpet
@@ -47,5 +46,6 @@ gems:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
+  - octopress-paginate
   - jekyll-sitemap
   - jekyll-seo-tag

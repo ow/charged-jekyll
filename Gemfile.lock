@@ -38,6 +38,10 @@ GEM
     multipart-post (2.0.0)
     octokit (4.3.0)
       sawyer (~> 0.7.0, >= 0.5.3)
+    octopress-hooks (2.6.1)
+      jekyll (>= 2.0)
+    octopress-paginate (1.1.2)
+      octopress-hooks
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     rb-fsevent (0.9.7)
@@ -61,7 +65,8 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-seo-tag
   jekyll-sitemap
+  octopress-paginate
   redcarpet
 
 BUNDLED WITH
-   1.11.2
+   1.12.5

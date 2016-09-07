@@ -23,5 +23,3 @@ Here's everything you need to click on from this week's podcast:
 </li>
 </ul>
 Did you enjoy this week’s podcast? It means the world to us if you leave a review, so please take the time to drop one <a href="https://itunes.apple.com/nz/podcast/charged-tech-podcast/id1090693983">here</a>. Any questions, comments or criticism? Hit us up on Twitter on @ow or @jedgar directly, or via the@chargedtech account!
-
-&nbsp;
