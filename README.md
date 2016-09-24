@@ -2,7 +2,8 @@
 
 > Charged Newsletter and Technology Podcast
 
-![](https://www.dropbox.com/s/2var4h6tl0vjadj/chgd.png)
+![](http://i.imgur.com/0Pfl7kI.png)
+
 ## To get started
 
 ```sh
@@ -40,3 +41,7 @@ on Github](https://github.com/sondr3/generator-jekyllized).
 ## Owner
 
 > [Owen Williams](http://char.gd)
+
+## Can I Use this?
+
+Yeah, if you like. I don't really provide it for that purpose – the Gulpfile and a few other things are missing – but if you dig the style, go for it! The Gulp setup I use can be found in `generator-jekyllized` for Yeoman.
