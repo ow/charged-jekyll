@@ -70,6 +70,13 @@ p, ul {
   }
 }
 
-.footer-border {
+.sidebar {
+  .active {
+    border-left: 3px solid $brand-primary;
+    padding-left: 10px;
+  }
 
+  .podcast-line {
+    border-left: 3px solid $podcast-primary;
+  }
 }

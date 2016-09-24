@@ -2,9 +2,10 @@
   <a href="/"><h1 class="brand">Charged</h1></a>
   <span class="muted">@chargedtech</span>
   <ul>
-    <li><a href="/podcast">Podcast</a></li>
-    <li><a href="/about">About</a></li>
-    <li><a href="/sponsor">Sponsor</a></li>
+    <li class="{% if page.tags  == 'podcast' %}podcast-line active{% endif%}"><a href="/podcast">Podcast</a></li>
+    <li class="{% if page.tags == 'about' %}active{%endif%}"><a href="/about">About</a></li>
+    <li class="{% if page.tags == 'sponsor' %}active{%endif%}"><a href="/sponsor">Sponsor</a></li>
+    <li><a href="/archive">Archive</a></li>
     <li><a href="mailto:owen@char.gd">Say Hi</a></li>
     <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></li>
   </ul>
