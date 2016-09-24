@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/octopress/paginate.git
+  revision: 9b3e42f03fe05e19e819a00134b40f63416f736b
+  specs:
+    octopress-paginate (1.1.2)
+      octopress-hooks
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -40,8 +47,6 @@ GEM
       sawyer (~> 0.7.0, >= 0.5.3)
     octopress-hooks (2.6.2)
       jekyll (>= 2.0)
-    octopress-paginate (1.1.2)
-      octopress-hooks
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     rb-fsevent (0.9.7)
@@ -66,7 +71,7 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   octopress-hooks
-  octopress-paginate
+  octopress-paginate!
   redcarpet
 
 BUNDLED WITH

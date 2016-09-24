@@ -3,6 +3,7 @@ layout: podcast-post
 date: 2016-07-16
 title: "015: Pokémon Go sweeps the world"
 categories: podcast
+collection: podcasts
 type: podcast
 comments: false
 excerpt: "This week Owen and John talk about how Pokémon Go is making people crazy, Snapchat's weird new Memories feature, Theranos' big problem, Hyperloop's scandal and a whole lot about AI."

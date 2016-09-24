@@ -2,8 +2,8 @@
 layout: podcast
 paginate:
   collection: podcasts
-  pagination_dir: posts
-  per_page: 6
+  reversed: true 
+  per_page: 5
   permalink: /podcast/:num/
 ---
 <div class="contents">
@@ -20,7 +20,6 @@ paginate:
     {% endfor %}
 
     <a href="{{paginator.next_page_path}}">Next page ></a>
-    {{pagination.total_posts}}
   </div>
 </div>
 </div>

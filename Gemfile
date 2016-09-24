@@ -10,4 +10,4 @@ gem 'jekyll-gist'
 gem 'jekyll-paginate'
 gem 'jekyll-sitemap'
 gem 'jekyll-seo-tag'
-gem "octopress-paginate"
+gem 'octopress-paginate', :git => 'git://github.com/octopress/paginate.git'
