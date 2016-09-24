@@ -3,6 +3,7 @@ layout: podcast-post
 date: 2016-08-17
 title: "018: Facebook goes to war with adblockers"
 categories: podcast
+collection: podcasts
 type: podcast
 comments: false
 excerpt: This week, John and Owen talk about Facebook's war against adblockers, new MacBook rumors and why the hell Google is launching yet another messaging app.

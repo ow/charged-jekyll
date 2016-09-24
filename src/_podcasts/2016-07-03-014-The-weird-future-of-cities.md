@@ -3,6 +3,7 @@ layout: podcast-post
 date: 2016-07-03
 title: "014: The weird future of cities"
 categories: podcast
+collection: podcasts
 type: podcast
 comments: false
 excerpt: "This week John and Owen talk about the weird smart future of cities and how data will influence them, the Facebookpocalypse, Spotify taking on Apple, Google's secretive Sidewalk Labs projects and a ton more."

@@ -3,6 +3,7 @@ layout: podcast-post
 date: 2016-08-07
 title: "017: Facebook murders clickbait"
 categories: podcast
+collection: podcasts
 type: podcast
 comments: false
 excerpt: "This week on Charged Podcast: how Facebook created and then murdered clickbait, Instagram copies Snapchat, Uber fails in China, Jet.com getting in bed with Walmart and a whole lot more."

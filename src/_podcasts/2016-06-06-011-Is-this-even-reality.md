@@ -2,6 +2,7 @@
 layout: podcast-post
 date: 2016-06-06
 title: "011: Is this even reality?"
+collection: podcasts
 categories: podcast
 type: podcast
 comments: false

@@ -3,6 +3,7 @@ layout: podcast-post
 date: 2016-07-30
 title: "016: Why leaving Twitter is improving my life"
 categories: podcast
+collection: podcasts
 type: podcast
 comments: false
 excerpt: "This week John and Owen discuss the freedom found by leaving Twitter, Verizon's acquisition of Yahoo, the takedown of KickAssTorrents (and the downfall of torrenting) and a whole lot more."

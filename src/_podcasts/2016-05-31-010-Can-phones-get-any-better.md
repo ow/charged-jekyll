@@ -2,8 +2,8 @@
 layout: podcast-post
 date: 2016-05-31
 title: "010: Can phones get any better, or is this it?"
+collection: podcasts
 categories: podcast
-type: podcast
 comments: false
 excerpt: "John and Owen talk about Snapchat's $1.8 billion raise, Microsoft's total layoffs of its phone division after licensing back to Nokia, the state of smartphones and how AI is creeping up on us... whether we like it or not."
 soundcloud: ''

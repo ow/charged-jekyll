@@ -20,6 +20,10 @@ author:
   twitter:
   github:
 
+collections:
+  podcasts:
+    output: true
+
 # _config.build.yml overwrites these options when you run `gulp build`
 # Enables future posts (posts with dates in the future) and drafts
 future: true
@@ -27,12 +31,10 @@ show_drafts: true
 # Disables the more accurate related posts for faster generating of the site
 lsi: false
 # Only make the last 10 posts so generating isn't slow
-limit_posts: 10
 
 # Permalink structure and pagination options
-permalink: pretty
-
-paginate: 5
+permalink: none
+excerpt_separator: '<!--more-->'
 
 # Markdown library and options
 markdown: redcarpet
@@ -46,6 +48,6 @@ gems:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
-  - octopress-paginate
   - jekyll-sitemap
   - jekyll-seo-tag
+  - octopress-paginate

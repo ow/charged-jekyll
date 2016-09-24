@@ -3,6 +3,7 @@ layout: podcast-post
 date: 2016-06-17
 title: "012: The US wants to control the internet"
 categories: podcast
+collection: podcasts
 type: podcast
 comments: false
 excerpt: "This week on Charged Podcast, John and Owen discuss how the US government might go back on a plan to release its control of the internet and Apple's WWDC event."

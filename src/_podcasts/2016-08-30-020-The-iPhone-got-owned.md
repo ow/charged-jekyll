@@ -3,6 +3,7 @@ layout: podcast-post
 date: 2016-08-30
 title: "020: The iPhone got owned"
 categories: podcast
+collection: podcasts
 type: podcast
 comments: false
 excerpt: This week John and Owen talk about the iPhone getting its first malware, the discovery of a new planet (and the existential questions that brings along with it) and a whole lot more.

@@ -1,24 +1,26 @@
 ---
 layout: podcast
+paginate:
+  collection: podcasts
+  pagination_dir: posts
+  per_page: 6
+  permalink: /podcast/:num/
 ---
 <div class="contents">
 <div class="col-lg-6 col-lg-offset-3">
   <div class="home">
-
-    {% for post in site.posts %}
-      {% if post.type == "post" %}
-
-      {% else %}
-        <div class="post-contain {% if post.type == 'post' %}post{% elsif post.type=='podcast'%}podcast{%endif%}">
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><h2>{{ post.title }}</h2></a>
-          {%if post.featured%}
-          <img class="featured" src="{{post.featured}}">
-          {% endif %}
-          <p class="excerpt">{{post.excerpt}}</p>
-        </div>
-      {% endif %}
+    {% for podcast in paginator.podcasts %}
+      <div class="post-contain {% if podcast.type == 'post' %}post{% elsif podcast.type=='podcast'%}podcast{%endif%}">
+        <a class="post-link" href="{{ podcast.url | prepend: site.baseurl }}"><h2>{{ podcast.title }}</h2></a>
+        {%if podcast.featured%}
+        <img class="featured" src="{{post.featured}}">
+        {% endif %}
+        <p class="excerpt">{{podcast.excerpt}}</p>
+      </div>
     {% endfor %}
 
+    <a href="{{paginator.next_page_path}}">Next page ></a>
+    {{pagination.total_posts}}
   </div>
 </div>
 </div>

@@ -3,6 +3,7 @@ layout: podcast-post
 date: 2016-06-17
 title: "013: LinkedIn + Microsoft = Heaven"
 categories: podcast
+collection: podcasts
 type: podcast
 comments: false
 excerpt: "This week Owen and John discuss everything you need to know about Apple's Worldwide Developer Conference, iOS 10, WatchOS and MacOS as well as Microsoft's massive $26.2 billion acquisition of LinkedIn, and a bunch of other great stuff."

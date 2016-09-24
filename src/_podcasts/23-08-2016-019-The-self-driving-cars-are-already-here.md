@@ -3,6 +3,7 @@ layout: podcast-post
 date: 2016-08-23
 title: "019: The self-driving cars are already here"
 categories: podcast
+collection: podcasts
 type: podcast
 comments: false
 excerpt: Uber's self-driving cars are already hitting the road - are you ready for it? Plus, the demise of Gawker, New York's scary free Wi-Fi and a bunch more.

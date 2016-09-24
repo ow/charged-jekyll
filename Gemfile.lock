@@ -17,7 +17,7 @@ GEM
       pathutil (~> 0.9)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
-    jekyll-feed (0.6.0)
+    jekyll-feed (0.7.0)
     jekyll-gist (1.4.0)
       octokit (~> 4.2)
     jekyll-paginate (1.1.0)
@@ -38,7 +38,7 @@ GEM
     multipart-post (2.0.0)
     octokit (4.3.0)
       sawyer (~> 0.7.0, >= 0.5.3)
-    octopress-hooks (2.6.1)
+    octopress-hooks (2.6.2)
       jekyll (>= 2.0)
     octopress-paginate (1.1.2)
       octopress-hooks
@@ -65,6 +65,7 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-seo-tag
   jekyll-sitemap
+  octopress-hooks
   octopress-paginate
   redcarpet
 
