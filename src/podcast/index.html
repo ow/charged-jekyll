@@ -4,7 +4,7 @@ paginate:
   collection: podcasts
   reversed: true 
   per_page: 5
-  permalink: /podcast/:num/
+  permalink: /:num/
 ---
 <div class="contents">
 <div class="col-lg-6 col-lg-offset-3">
@@ -18,8 +18,16 @@ paginate:
         <p class="excerpt">{{podcast.excerpt}}</p>
       </div>
     {% endfor %}
-
-    <a href="{{paginator.next_page_path}}">Next page ></a>
   </div>
 </div>
+  <div class="col-lg-3 col-lg-offset-3 paginate">
+    {% if paginator.next_page_path != null %}
+      <a href="{{paginator.next_page_path}}">< Older podcasts</a>
+    {% endif %}
+  </div>
+  <div class="col-lg-3 pull-right paginate">
+    {% if paginator.previous_page_path != null %}
+    <a class="newer" href="{{paginator.previous_page_path}}">Newer podcasts ></a>
+    {% endif %}
+  </div>
 </div>
