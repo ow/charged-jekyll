@@ -1,7 +1,8 @@
 # Charged
 
 > Charged Newsletter and Technology Podcast
-![](https://photos-5.dropbox.com/t/2/AABclRyLlvmD0GqS9Nq3WaY2oO_2RdwIDnPkLm5EdduGbw/12/61804989/png/32x32/1/_/1/2/chgd.png/EJPZ7y8Y1K4VIAcoBw/a9wvIqYIJNrt4S9hOf1G3eysszJP3mwn_bhfEXH5lUo?size=2048x1536&size_mode=3)
+
+![](https://www.dropbox.com/s/2var4h6tl0vjadj/chgd.png)
 ## To get started
 
 ```sh
