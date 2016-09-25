@@ -4,6 +4,7 @@ date: 2016-06-14
 title: "iOS 10: the beginning of the end for apps as you know them"
 categories: apple
 type: post
+featured: /assets/images/posts/ios10.jpeg
 excerpt: Apple’s Worldwide Developer Conference is a rare chance to get a glimpse into how the company’s long-term thinking could reshape the app industry, as well as the web. iOS 10 is going to change everything, in a big way.
 ---
 Apple’s Worldwide Developer Conference is a rare chance to get a glimpse into how the company’s long-term thinking could reshape the app industry, as well as the web.

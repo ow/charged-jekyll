@@ -7,7 +7,7 @@ categories: podcast
 type: podcast
 comments: false
 excerpt: "This week Owen and John discuss if reality is really just some big simulation, Uber's huge $3.5 billion raise from Saudi Arabia, a whole range of new emoji and how we're (still) obsessed with Snapchat."
-soundcloud: ''
+soundcloud: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/284557182&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
 ---
 Everything good from Charged Podcast #11:
 <ul>

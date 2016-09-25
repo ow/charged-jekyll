@@ -7,7 +7,7 @@ collection: podcasts
 type: podcast
 comments: false
 excerpt: "This week on Charged Podcast: how Facebook created and then murdered clickbait, Instagram copies Snapchat, Uber fails in China, Jet.com getting in bed with Walmart and a whole lot more."
-soundcloud: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/278659937&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
+soundcloud: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/284558245&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
 ---
 <strong>Here’s everything you need to know this week:</strong>
 <ul>
@@ -25,6 +25,7 @@ soundcloud: '<iframe width="100%" height="166" scrolling="no" frameborder="no" s
  	<li>The new Orkut, <a href="http://hello.com/en/index.html">hello.com</a></li>
  	<li><a href="http://www.bloomberg.com/news/articles/2016-08-01/uber-said-to-merge-china-business-with-didi-in-35-billion-deal">Uber merges with Didi in China</a></li>
 </ul>
+
 <strong>Book club: </strong><a href="https://www.amazon.com/15-Invaluable-Laws-Growth-Potential-ebook/dp/B0076DF6T4#nav-subnav">The Fifteen Invaluable Laws of Growth<strong> </strong>by John C Maxwell </a>(Recommended by John – let us know what you think!)
 
 <a href="https://charged-podcast.herokuapp.com/">Ultra secret super Slack channel for Charged Podcast listeners!</a> It'll be quiet at first, but we'd love to hang out with you.

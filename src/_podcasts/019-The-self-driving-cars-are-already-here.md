@@ -7,7 +7,7 @@ collection: podcasts
 type: podcast
 comments: false
 excerpt: Uber's self-driving cars are already hitting the road - are you ready for it? Plus, the demise of Gawker, New York's scary free Wi-Fi and a bunch more.
-soundcloud: ''
+soundcloud: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/284558362&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
 ---
 
 Everything you need to know from this week's podcast:
@@ -23,6 +23,5 @@ Everything you need to know from this week's podcast:
  	<li><a href="http://www.recode.net/2016/8/19/12560356/lyft-9-billion-buyout">Why does nobody want to buy Lyft?</a></li>
  	<li><a href="http://www.citylab.com/navigator/2016/08/to-court-a-skeptical-public-new-york-sends-wi-fi-ambassadors/495623/">New York had to hire ambassadors to teach people to use the Wi-Fi</a></li>
 </ul>
-We have some exciting news! This September we’ll be holding an IRL Charged Meetup in New York. If you’re free on Sunday September 18th, and you’re on the East Coast, come and hang out with us. <a href="https://www.facebook.com/events/912984068848160/?acontext=%7B%22ref%22%3A2%2C%22ref_dashboard_filter%22%3A%22upcoming%22%2C%22action_history%22%3A%22%5B%7B%5C%22surface%5C%22%3A%5C%22dashboard%5C%22%2C%5C%22mechanism%5C%22%3A%5C%22main_list%5C%22%2C%5C%22extra_data%5C%22%3A%5B%5D%7D%5D%22%7D">More details will be on this Facebook event</a>, so make sure to RSVP.
 
-If you can’t make it, we also have a cyberspace hangout now – in Slack. If you want to join, <a href="https://charged-podcast.herokuapp.com/">just head here and type in your email address</a>. We’re not sharing this beyond the podcast for now, so it’s a small community, but we’d love to chat!
+We also have a cyberspace hangout now – in Slack. If you want to join, <a href="https://charged-podcast.herokuapp.com/">just head here and type in your email address</a>. We’re not sharing this beyond the podcast for now, so it’s a small community, but we’d love to chat!

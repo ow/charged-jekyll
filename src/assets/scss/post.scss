@@ -26,3 +26,22 @@
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
+.authors {
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  .bold {
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 26px;
+    }
+
+  .dp {
+    width: 60px;
+    margin-bottom: 10px;
+  }
+}

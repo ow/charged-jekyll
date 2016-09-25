@@ -7,7 +7,7 @@ collection: podcasts
 type: podcast
 comments: false
 excerpt: "This week John and Owen discuss the freedom found by leaving Twitter, Verizon's acquisition of Yahoo, the takedown of KickAssTorrents (and the downfall of torrenting) and a whole lot more."
-soundcloud: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/278659937&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
+soundcloud: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/284558140&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
 ---
 Here's everything you need to know this week:
 <ul>
@@ -19,6 +19,7 @@ Here's everything you need to know this week:
  	<li><a href="https://torrentfreak.com/feds-seize-kickasstorrents-domains-charge-owner-160720/">KickAssTorrents goes offline after police raid</a></li>
  	<li><a href="http://www.nytimes.com/2016/07/28/technology/tor-project-jacob-appelbaum.html?_r=1&amp;referer=https://t.co/CesFNBWnmQ">TOR sexual harassment accusations</a></li>
 </ul>
+
 <strong>Book club: </strong><a href="https://www.amazon.com/How-Music-Got-Free-Industry/dp/0525426612">How Music Got Free</a> (Recommended by Owen – let us know what you think!)
 
 Did you enjoy this week’s podcast? It means the world to us if you leave a review, <a href="https://itunes.apple.com/nz/podcast/charged-tech-podcast/id1090693983">so please take the time to drop one here</a>.

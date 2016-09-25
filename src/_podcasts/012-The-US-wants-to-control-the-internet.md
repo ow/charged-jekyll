@@ -7,7 +7,7 @@ collection: podcasts
 type: podcast
 comments: false
 excerpt: "This week on Charged Podcast, John and Owen discuss how the US government might go back on a plan to release its control of the internet and Apple's WWDC event."
-soundcloud: ''
+soundcloud: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/284557240&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
 ---
 Here's everything you need to click on from this week's podcast:
 <ul>
