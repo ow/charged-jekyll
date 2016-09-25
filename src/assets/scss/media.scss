@@ -1,0 +1,34 @@
+
+ @media only screen and (max-width : 480px) {
+  .form {
+    display: none !important;
+    }
+
+    .sidebar {
+      position: inherit;
+      margin-top: 40px;
+      text-align: center;
+
+      .brand {
+        font-size: 42px;
+      }
+
+      .muted {
+        display: none;
+      }
+
+      ul {
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+      li {
+        display: inline;
+        margin-right: 20px;
+        font-size: 24px !important;
+      }
+    }
+
+    .site-footer {
+      display: none;
+    }
+  }
