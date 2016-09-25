@@ -3,6 +3,8 @@ layout: page
 title: Archive
 tags: archive
 permalink: /archive/
+image: /assets/images/OG-image.png
+description: Get everything you missed in Charged. Here are all the email newsletters we have sent since 2015.
 ---
 We're working on a better way to show our older emails, but for now, here's the latest Charged newsletters:
 

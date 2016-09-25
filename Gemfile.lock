@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/octopress/paginate.git
-  revision: 9b3e42f03fe05e19e819a00134b40f63416f736b
+  revision: b441961dfab85a3200d23d4d6405c29ca3a73ced
   specs:
-    octopress-paginate (1.1.2)
+    octopress-paginate (1.2.0)
       octopress-hooks
 
 GEM

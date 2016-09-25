@@ -5,7 +5,7 @@ title: "009: Google wants to invade your home"
 collection: podcasts
 categories: podcast
 comments: false
-excerpt: "This week John and Owen tackle Nokia coming back from the grave, Google's plethora of Home-related news, what self-driving cars are doing to humanity and more."
+description: "This week John and Owen tackle Nokia coming back from the grave, Google's plethora of Home-related news, what self-driving cars are doing to humanity and more."
 soundcloud: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/284556910&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
 ---
 Here's everything we talked about this week:

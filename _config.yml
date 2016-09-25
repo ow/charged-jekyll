@@ -16,9 +16,9 @@ author:
   name: Owen Williams
   email: owen@char.gd
   uri: http://char.gd
-  bio: 
-  twitter:
-  github:
+  bio:
+  twitter: ow
+  github: ow
 
 collections:
   podcasts:
@@ -33,7 +33,7 @@ lsi: false
 # Only make the last 10 posts so generating isn't slow
 
 # Permalink structure and pagination options
-permalink: none
+permalink: /:categories/:title/
 excerpt_separator: '<!--more-->'
 
 # Markdown library and options

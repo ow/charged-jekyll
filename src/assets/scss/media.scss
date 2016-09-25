@@ -17,6 +17,7 @@
       position: inherit;
       margin-top: 40px;
       text-align: center;
+      left: 0px;
 
       .brand {
         font-size: 42px;
@@ -31,9 +32,9 @@
         padding-right: 30px;
       }
       li {
-        display: inline;
+        display: inline-block;
         margin-right: 20px;
-        font-size: 24px !important;
+        font-size: 22px !important;
       }
     }
 

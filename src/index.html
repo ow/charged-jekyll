@@ -1,12 +1,13 @@
 ---
 layout: home
+image: /assets/images/OG-image.png
+description: "A weekly technology newsletter and podcast that gives you the best of tech news, without the fluff. Delivered directly to your inbox - or iTunes - for free."
 ---
 <div class="contents">
   <div class="col-lg-6 col-lg-offset-3">
     <div class="home">
       {% for post in site.posts %}
         {% if post.type == "podcast" %}
-
         {% else %}
           <div class="post-contain {% if post.type == 'post' %}post{% elsif post.type=='podcast'%}podcast{%endif%}">
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><h2>{{ post.title }}</h2></a>
