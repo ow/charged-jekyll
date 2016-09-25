@@ -6,6 +6,7 @@ $(function() {
           if(this.pathname != "/") {
             e.preventDefault();
             History.pushState({}, "", this.pathname);
+            $("html, body").animate({ scrollTop: 0 }, 200);
           }
         }
     });
