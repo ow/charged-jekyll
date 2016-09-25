@@ -3,10 +3,15 @@ $(function() {
     $(document).delegate('a[href^="/"],a[href^="'+siteUrl+'"]', "click", function(e) {
         console.log(this.pathname);
         if(this.pathname != "/podcast") {
-          if(this.pathname != "/") {
-            e.preventDefault();
-            History.pushState({}, "", this.pathname);
-            $("html, body").animate({ scrollTop: 0 }, 200);
+          if(this.pathname != "/archive") {
+            if(this.pathname != "/") {
+              e.preventDefault();
+              History.pushState({}, "", this.pathname);
+              NProgress.start();
+              $("html, body").animate({ scrollTop: 0 }, 200, function(){
+                finishedLoading();
+              });
+            }
           }
         }
     });
@@ -17,6 +22,7 @@ $(function() {
             document.title = $(data).find("title").text();
             $('.contents').html($(data).find('.contents'));
             _gaq.push(['_trackPageview', State.url]);
+
         });
     });
 
@@ -39,6 +45,8 @@ $(function() {
 
 });
 
+
+
 function collapseConvert(){
   Cookies.set('charged_convert', 'true', { expires: 7 });
   $('.collapse-hide').fadeToggle();
@@ -46,3 +54,6 @@ function collapseConvert(){
   $('.convert').toggleClass("collapsed");
 }
 
+function finishedLoading(){
+  NProgress.done();
+}
