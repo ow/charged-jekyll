@@ -6,7 +6,7 @@ categories: podcast
 collection: podcasts
 type: podcast
 comments: false
-excerpt: "This week John and Owen talk about the weird smart future of cities and how data will influence them, the Facebookpocalypse, Spotify taking on Apple, Google's secretive Sidewalk Labs projects and a ton more."
+description: "This week John and Owen talk about the weird smart future of cities and how data will influence them, the Facebookpocalypse, Spotify taking on Apple, Google's secretive Sidewalk Labs projects and a ton more."
 soundcloud: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/284557524&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
 ---
 Here’s everything you need to click on from this week’s podcast:

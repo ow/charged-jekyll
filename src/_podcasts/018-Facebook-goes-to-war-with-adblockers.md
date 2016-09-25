@@ -6,7 +6,7 @@ categories: podcast
 collection: podcasts
 type: podcast
 comments: false
-excerpt: This week, John and Owen talk about Facebook's war against adblockers, new MacBook rumors and why the hell Google is launching yet another messaging app.
+description: This week, John and Owen talk about Facebook's war against adblockers, new MacBook rumors and why the hell Google is launching yet another messaging app.
 soundcloud: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/284558314&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
 ---
 We have a cyberspace hangout now – in Slack. If you want to join, <a href="https://charged-podcast.herokuapp.com">just head here and type in your email address</a>. We're not sharing this beyond the podcast for now, so it's a small community, but we'd love to chat!

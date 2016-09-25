@@ -5,7 +5,7 @@ title: "002: AI takes down the humans"
 collection: podcasts
 categories: podcast
 comments: false
-excerpt: "This week on Charged Tech we talk about Google's AlphaGo beating humans 4-1 at the infinitely complex game of Go and what that means for us, Opera adding adblock into its browser, the first app that snuck malware onto OS X and Sonos' huge layoffs."
+description: "This week on Charged Tech we talk about Google's AlphaGo beating humans 4-1 at the infinitely complex game of Go and what that means for us, Opera adding adblock into its browser, the first app that snuck malware onto OS X and Sonos' huge layoffs."
 soundcloud: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/284554310&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
 ---
 The tech year's getting into full swing again, so we've got a bunch of great things to discuss this week! Here's what we talk about on Charged 002:

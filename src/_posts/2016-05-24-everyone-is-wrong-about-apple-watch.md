@@ -5,7 +5,7 @@ title:  Everyone’s wrong about Apple Watch. Here’s why.
 categories: apple
 type: post
 featured: /assets/images/aw.jpg
-excerpt: It can change your life in material ways, just by helping you make tiny behavior tweaks. All I needed was a push to get moving, and it delivered it — it might be all you need too.
+description: It can change your life in material ways, just by helping you make tiny behavior tweaks. All I needed was a push to get moving, and it delivered it — it might be all you need too.
 ---
 
 With almost every new technology product comes a hype wave. Everyone will exclaim hyperbole about how great it is, then around 12–18 months later criticism creeps in.

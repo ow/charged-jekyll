@@ -5,7 +5,7 @@ title: "010: Can phones get any better, or is this it?"
 collection: podcasts
 categories: podcast
 comments: false
-excerpt: "John and Owen talk about Snapchat's $1.8 billion raise, Microsoft's total layoffs of its phone division after licensing back to Nokia, the state of smartphones and how AI is creeping up on us... whether we like it or not."
+description: "John and Owen talk about Snapchat's $1.8 billion raise, Microsoft's total layoffs of its phone division after licensing back to Nokia, the state of smartphones and how AI is creeping up on us... whether we like it or not."
 soundcloud: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/284557173&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
 ---
 Here's everything we talked about on Charged Podcast Episode 10:

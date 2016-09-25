@@ -5,7 +5,7 @@ title: "001: Slack slaughters Hangouts"
 collection: podcasts
 categories: podcast
 comments: false
-excerpt: "Charged Podcast is finally here! We kick off our first-ever episode this week with the low-down on how this podcast will shape up (probably), and jump right into the deep end."
+description: "Charged Podcast is finally here! We kick off our first-ever episode this week with the low-down on how this podcast will shape up (probably), and jump right into the deep end."
 soundcloud: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/284554222&amp;color=453ae4&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
 ---
 Charged Podcast is finally here! We kick off our first-ever episode this week with the low-down on how this podcast will shape up (probably), and jump right into the deep end.

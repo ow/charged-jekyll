@@ -5,7 +5,7 @@ title: "007: Android's in rough waters"
 collection: podcasts
 categories: podcast
 comments: false
-excerpt: "This week we talk about Europe's antitrust lawsuit against Google's Android operating system and the way Medium's killing Wordpress. We also have a special guest, Justin Johnson from Keen.io, to tell us what he learnt this week."
+description: "This week we talk about Europe's antitrust lawsuit against Google's Android operating system and the way Medium's killing Wordpress. We also have a special guest, Justin Johnson from Keen.io, to tell us what he learnt this week."
 soundcloud: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/284555129&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
 ---
 Here's what's interesting from the podcast this week:

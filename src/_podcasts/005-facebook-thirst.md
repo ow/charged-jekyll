@@ -5,7 +5,7 @@ title: "005: Facebook's thirst to get you sharing"
 collection: podcasts
 categories: podcast
 comments: false
-excerpt: "This week Owen and John look at Facebook's decline in sharing and its newfound focus on getting you to live stream your life, how Tesla is changing the game with the Model 3, how Google considering Swift for Android could change the game and the new world of ownership in the Internet of Things."
+description: "This week Owen and John look at Facebook's decline in sharing and its newfound focus on getting you to live stream your life, how Tesla is changing the game with the Model 3, how Google considering Swift for Android could change the game and the new world of ownership in the Internet of Things."
 soundcloud: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/284554753&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
 ---
 Here's what we talked about this week, in order:

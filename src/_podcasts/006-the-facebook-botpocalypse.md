@@ -5,7 +5,7 @@ title: "006: The Facebook botpocalypse"
 collection: podcasts
 categories: podcast
 comments: false
-excerpt: " The Facebook botpocalypse is upon us, as a swathe of machines descend on Messenger to converse with you about the weather. That, and John and Owen talk about Magic Pony, Artificial Intelligence, BlackBerry's shady dealings and a whole lot more."
+description: " The Facebook botpocalypse is upon us, as a swathe of machines descend on Messenger to converse with you about the weather. That, and John and Owen talk about Magic Pony, Artificial Intelligence, BlackBerry's shady dealings and a whole lot more."
 soundcloud: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/284554987&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
 ---
 Here's what's interesting from the podcast this week:

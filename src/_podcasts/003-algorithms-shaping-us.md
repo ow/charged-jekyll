@@ -5,7 +5,7 @@ title: "003: Algorithms shaping us"
 collection: podcasts
 categories: podcast
 comments: false
-excerpt: "This week on Charged Podcast, John and Owen discuss Apple's rumored migration from Amazon Web Services to Google Cloud Platform, the takeover of algorithms on our social media feeds, Playstation VR and Baidu's self-driving cars. Plus, our special guest Ryan Walsh, former VP of product at Apple Music joins us to talk about advertising technology and monetizing the web."
+description: "This week on Charged Podcast, John and Owen discuss Apple's rumored migration from Amazon Web Services to Google Cloud Platform, the takeover of algorithms on our social media feeds, Playstation VR and Baidu's self-driving cars. Plus, our special guest Ryan Walsh, former VP of product at Apple Music joins us to talk about advertising technology and monetizing the web."
 soundcloud: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/284554426&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
 ---
 This week on Charged Podcast, John and Owen discuss <a href="http://uk.businessinsider.com/google-nabs-apple-as-a-cloud-customer-2016-3?r=US&amp;IR=T">Apple's rumored migration from Amazon Web Services to Google Cloud Platform</a>, the <a href="http://www.nytimes.com/2016/03/16/technology/instagram-feed.html?_r=0">takeover of algorithms on our social media feeds</a>, Playstation VR and <a href="http://www.engadget.com/2016/03/17/baidu-us-self-driving-car-test/">Baidu's self-driving cars</a>.
