@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2016-09-25
-title: "iOS 10: the beginning of the end for apps as you know them"
+title: "Google buying Twitter would be the best result for everyone"
 categories: google
 type: post
 featured: /assets/images/posts/google.png

@@ -38,8 +38,10 @@ p, body {
   }
 
   h2:hover {
-   background: linear-gradient(-209deg, #B22CFF 0%, #453AE4 100%);
+   background: -webkit-linear-gradient(-209deg, #B22CFF 0%, #453AE4 100%);
    -webkit-background-clip: text;
+   color: #453AE4;
+   background-clip: text;
    -webkit-text-fill-color: transparent;
    text-decoration: none;
   }

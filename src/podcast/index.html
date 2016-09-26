@@ -15,8 +15,8 @@ paginate:
     {% for podcast in paginator.podcasts %}
       <div class="post-contain {% if podcast.type == 'post' %}post{% elsif podcast.type=='podcast'%}podcast{%endif%}">
         <a class="post-link" href="{{ podcast.url | prepend: site.baseurl }}"><h2>{{ podcast.title }}</h2></a>
-        {%if podcast.featured%}
-        <img class="featured" src="{{post.featured}}">
+        {% if podcast.image %}
+        <img class="featured" src="{{ podcast.image }}">
         {% endif %}
         <p class="excerpt">{{podcast.description}}</p>
       </div>
@@ -38,7 +38,7 @@ paginate:
     <hr>
   </div>
   <div class="upsell center">
-    <p class="muted">Charged podcast is brought to you by </p>
+    <p class="muted">Charged podcast is brought to you by</p>
   </div>
   </div>
   <div class="col-lg-3 col-lg-offset-3 center authors">
@@ -49,6 +49,6 @@ paginate:
   <div class="col-lg-3 center authors">
     <img class="dp" src="/assets/images/je.jpg">
     <p class="bold">John Edgar</p>
-    <p>John likes music and weird things and hot pics. He's the co-founder and ceo at Stae and the former Chief Technology Evangelist and VP, strategy at Digital Ocean. John has been in love with the internets since forever.</p>
+    <p>John likes music and weird things. He's the co-founder and CEO at Stae and the former Chief Technology Evangelist and VP, strategy at Digital Ocean. He's been in love with the internets since forever.</p>
   </div>
 </div>
