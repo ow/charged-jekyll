@@ -34,7 +34,8 @@ p, body {
   p a, .sidebar h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(-209deg, #2C6DFF 0%, #453AE4 100%);
+    color: #453AE4;
+    background-image: -webkit-linear-gradient(-209deg, #2C6DFF 0%, #453AE4 100%);
   }
 
   h2:hover {
