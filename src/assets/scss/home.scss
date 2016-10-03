@@ -31,6 +31,11 @@ article {
 
 
 .podcast {
+
+  .post-contain {
+    position: relative;
+  }
+
   h1, h2 {
     color: $podcast-primary;
     padding-bottom: 5px;
@@ -42,6 +47,19 @@ article {
     &:hover {
       color: $brand-primary !important;
     }
+  }
+
+  .length {
+    position: absolute;
+    right: -260px;
+    top: 0px;
+    display: none;
+
+    p {
+      font-size: 14px;
+      text-transform: uppercase;
+      @extend .muted;
+     }
   }
 }
 

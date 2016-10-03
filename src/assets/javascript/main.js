@@ -43,6 +43,14 @@ $(function() {
     collapseConvert();
    });
 
+  $('.post-link').hover(function(){
+    var captureID = "#length-" + this.id;
+    $(captureID).fadeIn();
+  }, function(){
+      var captureID = "#length-" + this.id;
+      $(captureID).fadeOut();
+  });
+
 });
 
 

@@ -31,7 +31,7 @@ p, body {
 }
 
 .podcast {
-  p a, .sidebar h1 {
+  .sidebar h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: #453AE4;
@@ -45,6 +45,10 @@ p, body {
    background-clip: text;
    -webkit-text-fill-color: transparent;
    text-decoration: none;
+  }
+
+  p a {
+    color: #453AE4;
   }
 }
 

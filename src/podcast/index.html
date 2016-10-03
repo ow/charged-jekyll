@@ -14,11 +14,16 @@ paginate:
   <div class="home">
     {% for podcast in paginator.podcasts %}
       <div class="post-contain {% if podcast.type == 'post' %}post{% elsif podcast.type=='podcast'%}podcast{%endif%}">
-        <a class="post-link" href="{{ podcast.url | prepend: site.baseurl }}"><h2>{{ podcast.title }}</h2></a>
+        <a class="post-link" href="{{ podcast.url | prepend: site.baseurl }}" id="{{forloop.index}}"><h2>{{ podcast.title }}</h2></a>
         {% if podcast.image %}
         <img class="featured" src="{{ podcast.image }}">
         {% endif %}
         <p class="excerpt">{{podcast.description}}</p>
+        <div class="length" id="length-{{forloop.index}}">
+        {% if podcast.time %}
+          <p>Listening time: {{ podcast.time }}</p>
+        {% endif %}
+        </div>
       </div>
     {% endfor %}
   </div>
