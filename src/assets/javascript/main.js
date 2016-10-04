@@ -21,8 +21,8 @@ $(function() {
         $.get(State.url, function(data){
             document.title = $(data).find("title").text();
             $('.contents').html($(data).find('.contents'));
-            _gaq.push(['_trackPageview', State.url]);
-
+            ga('set', { page: State.url});
+            ga('send', 'pageview');
         });
     });
 
