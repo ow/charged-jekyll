@@ -29,6 +29,11 @@ layout: home
         <p class="bold muted upsell">By Owen Williams</p>
         <p>Owen was previously Editor at The Next Web and now runs digital at VanMoof in Amsterdam. He created Charged newsletter, and is probably far too obsessed with keeping up with everything in tech.</p>
       </div>
+      {% if page.comments %}
+    <div class="col-lg-6 col-lg-offset-3">
+      {% include disqus.html %}
+    </div>
+    {% endif %}
       </div>
     </div>
   </div>

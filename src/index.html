@@ -15,6 +15,9 @@ description: "A weekly technology newsletter and podcast that gives you the best
             <img class="featured" src="{{post.featured}}">
             {% endif %}
             <p class="excerpt">{{post.description}}</p>
+             <div class="length" id="length-{{forloop.index}}">
+              <p>Reading time: </p>
+        </div>
           </div>
         {% endif %}
       {% endfor %}
