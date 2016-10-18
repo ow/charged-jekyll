@@ -3,6 +3,8 @@ const fs = require('fs');
 const gulp = require('gulp');
 const parallelize = require('concurrent-transform');
 const awspublish = require('gulp-awspublish');
+const ghPages = require('gulp-gh-pages');
+
 
 // 'gulp deploy' -- reads from your AWS Credentials file, creates the correct
 // headers for your files and uploads them to S3
@@ -20,4 +22,9 @@ gulp.task('upload', () => {
     .pipe(publisher.cache())
     .pipe(publisher.sync())
     .pipe(awspublish.reporter());
+});
+
+gulp.task('github', function() {
+  return gulp.src('./dist/**/*')
+    .pipe(ghPages());
 });

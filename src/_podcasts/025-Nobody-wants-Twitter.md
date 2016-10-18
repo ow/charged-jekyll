@@ -9,7 +9,7 @@ comments: true
 image: /assets/images/posts/twitter_header.png
 description: "This week on Charged Podcast: Nobody really wants to buy Twitter, Samsung's phones are banned from planes entirely, an introduction to the deep web and more!"
 soundcloud: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/288643066&amp;color=0066cc&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
-time: 53 minutes
+time: 48 minutes
 ---
 Everything you need to know from the podcast this week:
 
