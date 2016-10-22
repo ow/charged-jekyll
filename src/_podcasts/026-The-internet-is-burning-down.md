@@ -9,7 +9,7 @@ comments: true
 image: /assets/images/posts/internet_burning.png
 description: "This week on Charged Podcast: The Internet is burning down – because of your smart thermostat, the Nintendo Switch, and self-driving cars are already all over the road."
 soundcloud: ''
-time: 48 minutes
+time: 38 minutes
 ---
 Everything you need to know from the podcast this week:
 
