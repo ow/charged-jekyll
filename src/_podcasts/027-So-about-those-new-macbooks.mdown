@@ -1,0 +1,35 @@
+---
+layout: podcast-post
+date: 2016-10-29
+title: "027: So... about those new MacBooks"
+categories: podcast
+collection: podcasts
+type: podcast
+comments: true
+image: /assets/images/posts/macbook.png
+description: "This week on Charged Podcast: The Internet is burning down – because of your smart thermostat, the Nintendo Switch, and self-driving cars are already all over the road."
+soundcloud: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/290545038&amp;color=0066cc&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
+time: 38 minutes
+---
+Everything you need to know from the podcast this week:
+
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=WVPRkcczXCY">Apple's latest MacBook pro design video</a></li>
+  <li><a href="http://www.macrumors.com/roundup/macbook-pro/">Everything worth knowing about the new MacBook Pro </a></li>
+  <li><a href="https://medium.com/charged-tech/apple-just-told-the-world-it-has-no-idea-who-the-mac-is-for-722a2438389b">Owen's thoughts on the new MacBook Pro</a></li>
+  <li><a href="http://www.theverge.com/2016/10/26/13421728/microsoft-surface-studio-hands-on">
+Microsoft's amazing iMac clone can do so much more</a></li>
+<li><a href="http://daringfireball.net/linked/2016/10/24/clarity">
+Robert Scoble thinks the next iPhone will be transparent (lol)</a></li>
+<li><a href="http://www.nytimes.com/2016/10/30/business/the-att-time-warner-merger-a-match-built-on-hope.html?_r=0">
+AT&T is trying to acquire Time Warner</a></li>
+<li><a href="https://www.theguardian.com/business/2016/oct/28/soylent-meal-substitute-company-admits-products-making-people-sick">
+Soylent's meal replacement powder is making a bunch of people sick</a></li>
+<li><a href="http://www.vanityfair.com/news/2016/10/what-happened-to-vine">
+Twitter killed Vine :(</a></li>
+</ul>
+
+
+Did you enjoy the podcast? Please [leave us a comment on Soundcloud](https://soundcloud.com/charged-tech/26-the-internet-is-burning-down), or a review on iTunes. It helps us more than you think – if you'd prefer to get in touch you can reach us at <a href="mailto:hi@chargedpodcast.com"> this address</a>.
+
+By the way, you can join us to hang out – in Slack. If you want to join, just click the [magic link](https://charged-podcast.herokuapp.com/) below. Invitations are limited, and will close in November – don't miss out!.
