@@ -26,10 +26,11 @@ AT&T is trying to acquire Time Warner</a></li>
 <li><a href="https://www.theguardian.com/business/2016/oct/28/soylent-meal-substitute-company-admits-products-making-people-sick">
 Soylent's meal replacement powder is making a bunch of people sick</a></li>
 <li><a href="http://www.vanityfair.com/news/2016/10/what-happened-to-vine">
-Twitter killed Vine :(</a></li>
+Twitter killed Vine</a></li>
 </ul>
 
+Did you enjoy the podcast?
 
-Did you enjoy the podcast? Please [leave us a comment on Soundcloud](https://soundcloud.com/charged-tech/26-the-internet-is-burning-down), or a review on iTunes. It helps us more than you think – if you'd prefer to get in touch you can reach us at <a href="mailto:hi@chargedpodcast.com"> this address</a>.
+Please <a href="https://soundcloud.com/charged-tech/26-the-internet-is-burning-down">leave us a comment on Soundcloud</a>, or a review on iTunes. It helps us more than you think – if you'd prefer to get in touch you can reach us at <a href="mailto:hi@chargedpodcast.com"> this address</a>.
 
-By the way, you can join us to hang out – in Slack. If you want to join, just click the [magic link](https://charged-podcast.herokuapp.com/) below. Invitations are limited, and will close in November – don't miss out!.
+By the way, you can join us to hang out – in Slack. If you want to join, just click the <a href="https://charged-podcast.herokuapp.com/">magic link</a> below. Invitations are limited, and will close in November – don't miss out!.
