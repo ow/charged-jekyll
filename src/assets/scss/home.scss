@@ -48,18 +48,18 @@ article {
       color: $brand-primary !important;
     }
   }
+}
 
-  .length {
-    position: absolute;
-    right: -260px;
-    top: 0px;
-    display: none;
+.length {
+  position: absolute;
+  right: -260px;
+  top: 0px;
+  display: none;
 
-    p {
-      font-size: 14px;
-      text-transform: uppercase;
-      color: grey;
-    }
+  p {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: grey;
   }
 }
 

@@ -7,16 +7,16 @@ description: "A weekly technology newsletter and podcast that gives you the best
   <div class="col-lg-6 col-lg-offset-3">
     <div class="home">
       {% for post in site.posts %}
-        {% if post.type == "podcast" %}
-        {% else %}
-          <div class="post-contain {% if post.type == 'post' %}post{% elsif post.type=='podcast'%}podcast{%endif%}">
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><h2>{{ post.title }}</h2></a>
-            {%if post.featured%}
-            <img class="featured" src="{{post.featured}}">
-            {% endif %}
-            <p class="excerpt">{{post.description}}</p>
+        <div class="post-contain {% if post.type == 'post' %}post{% elsif post.type=='podcast'%}podcast{%endif%}">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><h2>{{ post.title }}</h2></a>
+          {%if post.featured%}
+          <img class="featured" src="{{post.featured}}">
+          {% endif %}
+          <p class="excerpt">{{post.description}}</p>
+          <div class="length" id="length-{{forloop.index}}">
+            <p>{{ post.date }}</p>
           </div>
-        {% endif %}
+        </div>
       {% endfor %}
     </div>
     <div class="separator">
