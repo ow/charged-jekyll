@@ -7,7 +7,7 @@ image: /assets/images/OG-image.png
 description: "Charged is a publication by Owen Williams that publishes a weekly newsletter and podcast designed to keep you up-to-date with the noisy technology industry."
 ---
 
-Curated by Owen Williams, Charged is a weekly newsletter designed to save you time and get you up to date, without the need to keep up with noisy tech sites.
+Curated by [Owen Williams](http://owenwillia.ms), Charged is a weekly newsletter designed to save you time and get you up to date, without the need to keep up with noisy tech sites.
 
 It started as a fun side project in 2014, and grew more than 200% every year since then from little more than word of mouth. Now, Charged is a newsletter and a podcast.
 
