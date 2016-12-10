@@ -4592,7 +4592,7 @@ h1, h2, h3 {
 p, body {
   font-family: "Source Sans Pro"; }
 
-.muted {
+.muted, .muted a {
   color: #949494; }
 
 .center {
@@ -4757,12 +4757,12 @@ article {
   .podcast a:hover {
     color: #E43E3A !important; }
 
-.podcast .length {
+.length {
   position: absolute;
   right: -260px;
   top: 0px;
   display: none; }
-  .podcast .length p {
+  .length p {
     font-size: 14px;
     text-transform: uppercase;
     color: grey; }
