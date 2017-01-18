@@ -11,8 +11,4 @@ gulp.task('inject:head', () =>
 );
 
 // 'gulp inject:footer' -- injects our index.js file into the end of our HTML
-gulp.task('inject:footer', () =>
-  gulp.src('.tmp/src/_includes/head.html')
-    .pipe(inject(gulp.src('.tmp/assets/javascript/*.js'), {ignorePath: '.tmp'}))
-    .pipe(gulp.dest('.tmp/src/_includes'))
-);
+gulp.task('inject:footer');
