@@ -5,6 +5,7 @@ title: "034: Everything is terrible"
 categories: podcast
 collection: podcasts
 type: podcast
+featured: /assets/images/bulb.jpg
 comments: true
 description: "2017 isn't off to a great start, even for technology. We talk over Facebook's latest moves to kill Snapchat, how 3DTV is over completely, the doomsday clock ticking forward and a whole lot more."
 soundcloud: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/304961353&amp;color=0066cc&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
@@ -23,6 +24,6 @@ We're back in full swing for 2017, but things aren't going so great for technolo
 - A quick chat about net neutrality, and why you should care
 - And something positive: [Stem cell treatment cured babies of Leukemia](http://www.medicaldaily.com/cancer-2017-medical-first-babies-cured-leukemia-using-genetically-modified-t-409475)
 
-Thanks so much for listening! Did you enjoy the podcast?
+Thanks so much for listening! Did you enjoy the podcast? We'd love to hear what you liked.
 
 <p>Please <a href="https://soundcloud.com/charged-tech/030-we-hang-out-irl">leave us a comment on Soundcloud</a>, or a review on iTunes. It helps us more than you think – if you'd prefer to get in touch you can reach us at <a href="mailto:hi@chargedpodcast.com"> this address</a> – we love to chat, so don't be shy.</p>
