@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://char.gd/announcements/We-are-back-big-time/</loc>
+<lastmod>2017-01-22T00:00:00+01:00</lastmod>
+</url>
+<url>
 <loc>http://char.gd/announcements/We-are-taking-a-nap/</loc>
 <lastmod>2016-12-04T00:00:00+01:00</lastmod>
 </url>
 <url>
 <loc>http://char.gd/home/i-got-a-google-home/</loc>
 <lastmod>2016-12-02T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://char.gd/macbook/apple-just-told-the-world-it-has-no-idea-who-the-macbook-is-for/</loc>
+<lastmod>2016-11-01T00:00:00+01:00</lastmod>
 </url>
 <url>
 <loc>http://char.gd/iphone/the-reason-i-keep-going-back-to-apple/</loc>
@@ -157,5 +165,8 @@
 </url>
 <url>
 <loc>http://char.gd/podcasts/030-we-hang-out-irl/</loc>
+</url>
+<url>
+<loc>http://char.gd/podcasts/034-everything-is-terrible/</loc>
 </url>
 </urlset>

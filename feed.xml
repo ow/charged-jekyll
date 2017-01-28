@@ -7,6 +7,37 @@
     
       
         <item>
+          <title>Charged newsletter is back – with its biggest overhaul ever</title>
+          <description>&lt;p&gt;I took a big break over the last two months to take a look at Charged newsletter, the state of things and where we could go next. It ended up being a two month long break, but it was well overdue - for over two years I&amp;rsquo;ve been sending it every weekend.&lt;/p&gt;
+
+&lt;p&gt;Stepping back was good, and gave me time to reflect on things. When I started out, I thought I might get 100-200 subscribers, but today we&amp;rsquo;ve grown to 11,000 active subscribers, which was totally unexpected! As a result, I haven&amp;rsquo;t had time to look after the newsletter (let alone this site) until recently, so it got a bit stale, and even didn&amp;rsquo;t work in places.&lt;/p&gt;
+
+&lt;p&gt;Today, &lt;a href=&quot;http://charged1.createsend.com/t/ViewEmailArchive/i/DD00A51F026183B0/C67FD2F38AC4859C/&quot;&gt;Charged newsletter is back, and it&amp;rsquo;s better than ever&lt;/a&gt;. For the first time in two years I&amp;rsquo;ve built the entire newsletter from the ground up &lt;a href=&quot;http://foundation.zurb.com/emails.html&quot;&gt;using a framework called Ink&lt;/a&gt; that means you don&amp;rsquo;t have to use the old-school HTML that email traditionally demands. That means it&amp;rsquo;s far more maintainable, and works in almost all email clients – even Outlook 2007!&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+&lt;img style=&quot;max-width: 50%; margin-left:0px; margin-bottom: 15px;&quot; src=&quot;/assets/images/charged_mobile.png&quot;&gt;
+&lt;/div&gt;
+
+&lt;p&gt;With a more modern design, that finally matches this website, a cleaner layout, and proper email client support, Charged is better than ever! I&amp;rsquo;m planning to share more in-depth analysis of single stories both in the newsletter and here, as well as dive even deeper in the podcast, which is out every week too!&lt;/p&gt;
+
+&lt;p&gt;On top of that, the newsletter archives will all finally be hosted here in the next week, in a single place, rather than being across the various platforms I&amp;rsquo;ve used over the years, like MailChimp and Campaign Monitor – dive into all 100+ newsletters &lt;a href=&quot;http://char.gd/archive&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;http://chargedpodcast.com&quot;&gt;podcast&lt;/a&gt;, which is now 34 episodes in, has had more than 150,000 unique listeners in just six months. John Edgar and I discuss technology each week, and it&amp;rsquo;s been a blast so far, as well as one hell of a learning process. We started out with crappy audio and poor editing, and as we&amp;rsquo;ve learnt we&amp;rsquo;ve perfected the sound, our own discussions and the overall product – I hope you love it.&lt;/p&gt;
+
+&lt;p&gt;Alongside the podcast late last year we launched an invite-only Slack community for discussing topics, meeting people and talking with us directly, which has been a success as well.&lt;/p&gt;
+
+&lt;p&gt;More than 400 people use the Slack every week, and discussions have blossomed on everything from politics to technology&amp;rsquo;s impact on the world. Later this year I&amp;rsquo;m planning to offer community accesss, a daily newsletter and private updates for a small monthly fee to help continue the creation of Charged, and I&amp;rsquo;ll have more to share on that soon.&lt;/p&gt;
+
+&lt;p&gt;I hope you enjoy the new design, and if you have any thoughts, feedback or ideas for the future, I&amp;rsquo;d love to hear from you! Just hit reply on any of our emails (or comment here).&lt;/p&gt;
+</description>
+          <pubDate>2017-01-22T00:00:00+01:00</pubDate>
+          <link>http://char.gd/announcements/We-are-back-big-time/</link>
+          <guid isPermaLink="true">http://char.gd/announcements/We-are-back-big-time/</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Taking a quick nap</title>
           <description>&lt;p&gt;&lt;em&gt;Here&amp;rsquo;s a copy of the email I sent out to subscribers in late November. Charged newsletter will be back – really soon – but I wanted to take a break to reflect, rebuild and make sure it&amp;rsquo;s better than ever.&lt;/em&gt;&lt;/p&gt;
 
@@ -100,6 +131,67 @@ When Google announced its Siri competitor, Google Assistant, last month I wrote 
           <pubDate>2016-12-02T00:00:00+01:00</pubDate>
           <link>http://char.gd/home/i-got-a-google-home/</link>
           <guid isPermaLink="true">http://char.gd/home/i-got-a-google-home/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Apple just told the world it has no idea who the Mac is for</title>
+          <description>&lt;p&gt;Last night’s Apple event was bizarre — I had been anticipating this show for a while, mostly looking forward to being able to stop telling people not to buy a Mac, because everything was so outdated. But, even though what I saw was interesting, it really feels like Apple has lost its way.
+It’s strange — there’s nothing actually wrong with what Apple announced: USB-C on the Mac is great, a thinner, more powerful machine is intriguing and, while it’s too early to say, the Touch Bar could possibly be a gimmick, but it could be useful for helping people discover what shortcuts exist as they use the computer
+.
+The thing is, I can’t figure out who this is for other than those who are on really old machines. Myself, and everyone else, seems to be wondering what, exactly, is the selling point of this upgrade. I have a MacBook Pro 15&amp;quot; from 2013 and it’s still going strong and the majority of the time it’s plugged into a large display for creative work, coding or whatever.&lt;/p&gt;
+
+&lt;p&gt;Touch Bar is a great example of this. First, it feels like an excuse to not just add touch to the Mac in the first place. While Microsoft is busy letting you touch the entire display, Apple’s making you look down at your keyboard to interact instead — bizarre.
+But the “Pro” in Apple’s devices isn’t even accurate anymore. It used to be the best notebook on the market for creatives, developers and people with big requirements. One look at this slide shows Apple has no idea exactly where its demographic lies:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/mb1.jpeg&quot; alt=&quot;&quot;&gt;
+&lt;em&gt;Do you want the Pro, the Pro or the Pro? Which one is for Pros? I’m confused.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The MacBook Air is dead, which is great news, but why are there two MacBook Pro 13&amp;quot; now? The only difference is one doesn’t have the touch strip, but why not just… call it the new MacBook air to alleviate confusion?
+Adding an additional option, without the touch bar was a smart move. I was speaking with a number of friends on Slack during the event, who all said they’d buy the new Mac if you could get it with a normal function row. Then, Apple dropped this and they were interested. But as a final “fuck you” for those that get this, it has two less ports, slower memory and a worse GPU– and to add them back it’s basically the same price.&lt;/p&gt;
+
+&lt;p&gt;“The fact that Apple itself considered the MacBook Pro as a competitor to the MacBook Air shows it’s not really a Pro.” 
+-@lapcatsoftware&lt;/p&gt;
+
+&lt;p&gt;What video editors are going to do edits on a tiny touch bar below the screen? What DJ — like Apple demonstrated — wants to use a tiny touch bar to mix their music when the action is… on their screen?
+The event also left Apple with a ton of bizarre loose ends. At the iPhone event in September, Apple told the world that headphone jacks were dead because wireless headphones are superior — so why is there a headphone jack on the Mac? Even worse, Apple has delayed its wireless headphones which were supposed to change the world.&lt;/p&gt;
+
+&lt;p&gt;From there, the questions just get even more ridiculous:
+Why can’t you plug the Lightning headphones that come in the iPhone box into the new Mac? Why doesn’t the iPhone come with the right cable for the new MacBook Pro? Why doesn’t Apple make a screen that properly works with its own devices? Why did Apple highlight how great the Touch Bar is for Messaging, but didn’t even port most of the new iMessage features to macOS properly? Do I have to carry two pairs of headphones now? How do I charge my Lightning cable mouse? Why remove the HDMI port, a standard that’s still incredibly popular for plugging into TVs? Why remove the SD card, a popular slot for… creatives using cameras?
+“Watching someone DJ with the top of a keyboard was just embarrassing, doubly so from the company that makes the iPad and as recently as this year’s WWDC showed off its ability to be used by blind people.”
+Even worse, what took so long to get to this point? Many people have been waiting a year or more for a refresh, and this itself wasn’t even that notable.
+The new MacBook Pro has a Skylake chip, not the Kaby Lake one that’s recently landed– if you look at benchmarks at the top-end it’s pretty clear something is wrong: the CPU in this MacBook Pro actually appears to perform worse than the older one.
+CNET spoke to Apple’s marketing head, Phil Schiller, who said:
+Marketing chief Phil Schiller, software engineering lead Craig Federighi and top designer Jony Ive explained, in exclusive interviews earlier this week, why the Mac matters. Since they say it’s so important to Apple, we asked them why it took four years, four months and 16 days to deliver what they call a “milestone” and a “big step forward” for its top-of-the-line laptops.
+“The calendar isn’t what drives any of the decisions,” Schiller says in a 90-minute briefing at Apple’s headquarters in Cupertino, California. “We challenge the teams to do great work and sometimes that great work can be done in one year, sometimes it takes three years… What we really care about is creating new innovations in the Mac and continuing the story that has really defined Apple for so many years.”
+What does that even mean? It took four years to add a touch bar to the keyboard, which delayed any meaningful progress in the meantime? Apple’s customers are those that need powerful machines, but it delayed them infinitely for what amounts to a vanity project that the core demographic of Apple’s customers probably won’t even use.
+This does, indeed, speak to the longevity of the machines that Apple sells: you can use a MacBook from 2012 right now and probably can’t tell the difference. But therein lies the problem — the company waited four years, then didn’t really deliver any real future-value other than it’s “new.”&lt;/p&gt;
+
+&lt;p&gt;The size of the MacBook is perhaps the most compelling component.
+The other perplexing component of the event was the sheer lack of anything interesting for existing Mac owners. No new accessories — how cool would a Bluetooth version of the Touch Bar be — and no desktop computers.
+Now you’ve got an aging iMac with old ports, a very out of date Mac Pro and a bunch of weird old accessories that haven’t been touched in years — oh and about a million dongles anytime you want to plug something in.
+“I think if you’re looking at a PC, why would you buy a PC anymore? No really, why would you buy one?”
+– Tim Cook, talking about the iPad Pro
+The good news is there’s finally a modern Mac available, even if there are some small compromises, I just hope that Apple keeps up the pace from here on out. For the last 12–24 months it’s been painful explaining to someone that Apple will surely update its machines soon.
+To be clear, USB-C is a good thing. Someone has to do it, and jump in the deep end — but the way Apple has done it by forcing you into a corner to deal with it yourself rather than making it an easy transition… and you don’t even get the full power cable in the box anymore.&lt;/p&gt;
+
+&lt;p&gt;Courage (via Twitter)
+For a company that prides itself on ecosystem, and thinking of the ‘end to end’ experience, Apple has utterly lost its way.
+Yesterday, the world got an iteration on something the company’s been doing all along, rather than something that’s a vision for the future.
+Apple spent the entire event comparing itself to its own past, rather than showing us the future, and even then painted a very clear picture: it has no idea who the Mac is for.
+Peter Kirn wrote last night that it was hard to watch the Apple event:
+Apple’s obsessive naval gazing in the Mac event today speaks volumes. This is a company with no real vision for what its most creative users actually do with their most advanced machines. So, instead, they look into the past.
+The Mac made its name because it embraced the creative industry where Microsoft missed the boat, but in 2016, it seems like it’s going to miss out on the next wave entirely: the updated Mac isn’t suitable for the heavy graphics, virtual reality or 3D work it’s so famous for being good at.
+Is the new MacBook a mildly-interesting upgrade to the old one? Yes! Would I get it if I was in the market? Probably. But, to be frank, there’s simply no reason to right now if you already own a Mac that works well, and for the first time I’d at least consider looking somewhere else before buying it.&lt;/p&gt;
+
+&lt;p&gt;Apple, it seems, is angling for the ‘amateur creative’ and isn’t interested in anything else anymore. It wants the market that sits in coffee shops with its brand and only buys Apple, but doesn’t mind so much if the core demographic disappears. Maybe that’s OK — there’s probably good money in it — but it’s a real shame.
+When the 12&amp;quot; MacBook was released, I thought it was pretty forward-looking. Apple had produced a machine that was both impossibly small, had a number of interesting new concepts — and even took the “courage” to drop all ports for a single USB-C port: a bold move. It’s not a perfect machine, but it’s a look at a world where you can have a whole computer in your bag and not even notice it.
+To me, the event last night was Apple trying to remind the world it cares about the Mac, but more than anything else the undertone was this: Apple only cares about the Mac when it’s convenient, but even then, it’s obviously not thinking that hard about the impact is has.&lt;/p&gt;
+</description>
+          <pubDate>2016-11-01T00:00:00+01:00</pubDate>
+          <link>http://char.gd/macbook/apple-just-told-the-world-it-has-no-idea-who-the-macbook-is-for/</link>
+          <guid isPermaLink="true">http://char.gd/macbook/apple-just-told-the-world-it-has-no-idea-who-the-macbook-is-for/</guid>
         </item>
       
     

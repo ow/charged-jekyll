@@ -733,4 +733,25 @@ function finishedLoading(){
   NProgress.done();
 }
 
+$(document).ready(function () {  
+  var top = $('#sticky').offset().top;
+  height = $('#sticky').innerHeight();
+
+  var bottom = $('.footer-convert').offset().top - (height / 2);
+
+ 
+  $(window).scroll(function (event) {
+    var y = $(this).scrollTop();
+    console.log("Current: " + y + "Collision" + bottom);
+    if (y >= top){
+      $('#sticky').addClass('stick');
+        if (y >= bottom) {
+          $('#sticky').toggleClass('stick');
+        }
+    }
+    else {
+      $('#sticky').removeClass('stick');
+    }
+  });
+});
 //# sourceMappingURL=index.js.map
