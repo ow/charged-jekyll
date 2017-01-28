@@ -5,11 +5,14 @@ title: 'Charged newsletter is back – with its biggest overhaul ever'
 categories: announcements
 type: post
 comments: true
+featured: /assets/images/bulb.jpg
 description: "We just made the biggest changes ever to the newsletter, and it's back for good. There are big plans this year, and we hope you'll follow along."
 ---
 I took a big break over the last two months to take a look at Charged newsletter, the state of things and where we could go next. It ended up being a two month long break, but it was well overdue - for over two years I've been sending it every weekend.
 
-Stepping back was good, and gave me time to reflect on things. When I started out, I thought I might get 100-200 subscribers, but today we've grown to 11,000 active subscribers, which was totally unexpected! As a result, I haven't had time to look after the newsletter (let alone this site) until recently, so it got a bit stale, and even didn't work in places.
+Stepping back was good, and gave me time to reflect on things. I was close to burnout, and the work I was putting in was mediocre: the design sucked, and I got worn out on doing the thing every single week. Sometimes it's important to take a break, even if you value being consisten.
+
+When I started out, I thought I might get 100-200 subscribers, but today we've grown to 11,000 active subscribers, which was totally unexpected! As a result, I haven't had time to look after the newsletter (let alone this site) until recently, so it got a bit stale, and even didn't work in places.
 
 Today, [Charged newsletter is back, and it's better than ever](http://charged1.createsend.com/t/ViewEmailArchive/i/DD00A51F026183B0/C67FD2F38AC4859C/). For the first time in two years I've built the entire newsletter from the ground up [using a framework called Ink](http://foundation.zurb.com/emails.html) that means you don't have to use the old-school HTML that email traditionally demands. That means it's far more maintainable, and works in almost all email clients – even Outlook 2007!
 

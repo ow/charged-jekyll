@@ -5,11 +5,10 @@ title: "034: Everything is terrible"
 categories: podcast
 collection: podcasts
 type: podcast
-featured: /assets/images/bulb.jpg
 comments: true
 description: "2017 isn't off to a great start, even for technology. We talk over Facebook's latest moves to kill Snapchat, how 3DTV is over completely, the doomsday clock ticking forward and a whole lot more."
 soundcloud: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/304961353&amp;color=0066cc&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
-time: 34 minutes
+time: 56 minutes
 ---
 We're back in full swing for 2017, but things aren't going so great for technology. Here's all the relevant links, as well as topics in order, for this week's podcast:
 

@@ -1,0 +1,40 @@
+---
+layout: home
+tags: newsletter archive
+description: "All the previous newsletters sent to Charged subscribers."
+paginate:
+  collection: newsletters
+  reversed: true
+  per_page: 20
+  permalink: /:num/
+---
+<div class="contents newsletter">
+<div class="col-lg-6 col-lg-offset-3">
+  <div class="home">
+    <p>Here's all the newsletters you've missed, in one place:</p>
+
+    {% for newsletter in paginator.newsletters %}
+      <div class="post-contain">
+        <a class="post-link" href="{{ newsletter.url | prepend: site.baseurl }}" id="{{forloop.index}}"><h3>{{ newsletter.title }}</h3></a>
+        <p class="excerpt">{{newsletter.description}}</p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+  <div class="col-lg-3 col-lg-offset-3 paginate">
+    {% if paginator.next_page_path != null %}
+      <a href="{{paginator.next_page_path}}">← Older podcasts</a>
+    {% endif %}
+  </div>
+  <div class="col-lg-3 pull-right paginate">
+    {% if paginator.previous_page_path != null %}
+    <a class="newer" href="{{paginator.previous_page_path}}">Newer podcasts →</a>
+    {% endif %}
+  </div>
+  <div class="col-lg-6 col-lg-offset-3">
+  <div class="separator">
+    <hr>
+  </div>
+</div>
