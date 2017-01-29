@@ -13,13 +13,12 @@ paginate:
   <div class="home">
     <p>Here's all the newsletters you've missed, in one place:</p>
 
+    <div class="post-contain">
     {% for newsletter in paginator.newsletters %}
-      <div class="post-contain">
         <a class="post-link" href="{{ newsletter.url | prepend: site.baseurl }}" id="{{forloop.index}}"><h3>{{ newsletter.title }}</h3></a>
         <p class="excerpt">{{newsletter.description}}</p>
-        </div>
-      </div>
     {% endfor %}
+    </div>
   </div>
 </div>
 
@@ -37,4 +36,5 @@ paginate:
   <div class="separator">
     <hr>
   </div>
+</div>
 </div>

@@ -29,6 +29,27 @@
   }
 }
 
+.email-template {
+  img {
+    margin-left: auto;
+  }
+
+  .uppercase {
+    text-transform: none;
+  }
+
+  h1 {
+    font-size: 22px !important;
+  }
+
+
+  .email-container {
+    .row {
+      margin-left: 0px;
+    }
+  }
+}
+
 .newsletter {
   h3 {
     font-size: 22px;

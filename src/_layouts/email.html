@@ -1,14 +1,14 @@
 ---
-layout: email
+layout: default-email
 ---
 <div class="contents">
   <article class="post-page" itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="podcast">
+  <div class="">
     <div class="row">
       <div class="col-lg-6 col-lg-offset-3">
         <header class="post-header">
-          <span class="post-meta muted uppercase"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</span>
-          <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+          <p><a href="/newsletters">< Back to archive page</a></p>
+          <span class="post-meta muted uppercase"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.title }} <br> Sent to subscribers on {{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</span>
         </header>
         {%if page.featured%}
           <img class="featured post-image" src="{{page.featured}}">
@@ -18,7 +18,7 @@ layout: email
     </div>
     <div class="row">
       <div class="col-lg-12">
-        <div class="post-content" itemprop="articleBody">
+        <div class="post-content email-container" itemprop="articleBody">
           {{ content }}
         </div>
 
