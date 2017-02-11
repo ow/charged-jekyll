@@ -5,7 +5,7 @@
   color: white;
 
   h1 {
-    color: white;
+    color: white !important;
   }
 
   .signup-button {
@@ -25,11 +25,22 @@
     display: none;
   }
 
+      h1 {
+      text-align: inherit;
+    }
+
   .copy {
-    margin-top: 50px;
-    font-size: 18px;
-    line-height: 30px;
-    font-weight: 300;
+    margin-top: 50px !important;
+    font-size: 18px !important;
+    line-height: 30px !important;
+    font-weight: 300 !important;
+
+    p {
+      color: white !important;
+      text-align: inherit;
+      font-size: 18px;
+      line-height: 35px;
+    }
 
     .testimonial {
       font-size: 16px;
