@@ -19,6 +19,20 @@ p, ul {
   }
 }
 
+.convert {
+  .podcast {
+    background: transparent;
+    border: 2px solid white;
+    margin-right: 10px;
+    color: white;
+
+    &:hover {
+      background: white;
+      color: $podcast-primary !important;
+    }
+  }
+}
+
 .sidebar {
   position: absolute;
   left: 40px;
