@@ -4664,6 +4664,15 @@ p, ul {
   .close-modal svg {
     fill: white; }
 
+.convert .podcast {
+  background: transparent;
+  border: 2px solid white;
+  margin-right: 10px;
+  color: white; }
+  .convert .podcast:hover {
+    background: white;
+    color: #453AE4 !important; }
+
 .sidebar {
   position: absolute;
   left: 40px;
@@ -5065,18 +5074,15 @@ article {
     .sidebar li {
       display: inline-block;
       margin-right: 20px;
-      font-size: 22px !important; }
-  #sticky.stick {
-    margin-top: 20px !important;
-    position: relative;
-    top: 0;
-    z-index: 10000; } }
+      font-size: 22px !important; } }
 
 @media only screen and (max-width: 480px) {
   .post-content img {
     max-width: 100%;
     height: auto;
     margin: auto; }
+  .convert .podcast {
+    margin-top: 15px; }
   h1 {
     font-size: 36px; }
   .post h2, .podcast h2 {
