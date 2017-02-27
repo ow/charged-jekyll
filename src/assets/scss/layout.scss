@@ -19,6 +19,23 @@ p, ul {
   }
 }
 
+  .inline-box {
+    height: 40px !important;
+  }
+
+.inline-signup {
+  padding: 5px;
+  border: 1px solid $brand-primary;
+
+}
+
+.input-group-btn {
+  button {
+    border-radius: 0px 5px 5px 0px;
+    height: 40px;
+  }
+}
+
 .convert {
   .podcast {
     background: transparent;
@@ -116,4 +133,11 @@ p, ul {
     position: fixed;
     top: 0;
     z-index: 10000;
+}
+
+.subscribe {
+  .muted {
+    font-size: 10px;
+    margin-top: 20px;
+  }
 }
