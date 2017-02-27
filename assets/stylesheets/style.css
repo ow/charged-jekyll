@@ -4664,6 +4664,17 @@ p, ul {
   .close-modal svg {
     fill: white; }
 
+.inline-box {
+  height: 40px !important; }
+
+.inline-signup {
+  padding: 5px;
+  border: 1px solid #E43E3A; }
+
+.input-group-btn button {
+  border-radius: 0px 5px 5px 0px;
+  height: 40px; }
+
 .convert .podcast {
   background: transparent;
   border: 2px solid white;
@@ -4737,6 +4748,10 @@ p, ul {
   position: fixed;
   top: 0;
   z-index: 10000; }
+
+.subscribe .muted {
+  font-size: 10px;
+  margin-top: 20px; }
 
 article {
   margin-top: 60px; }

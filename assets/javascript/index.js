@@ -734,7 +734,7 @@ function finishedLoading(){
 }
 
 $(document).ready(function () {  
-  var top = $('#sticky').offset().top;
+ /* var top = $('#sticky').offset().top;
   height = $('#sticky').innerHeight();
 
   var bottom = $('.footer-convert').offset().top - (height / 2);
@@ -752,6 +752,6 @@ $(document).ready(function () {
     else {
       $('#sticky').removeClass('stick');
     }
-  });
+  }); */
 });
 //# sourceMappingURL=index.js.map
