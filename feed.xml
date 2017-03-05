@@ -7,6 +7,102 @@
     
       
         <item>
+          <title>Why I left Mac for Windows: Apple has given up</title>
+          <description>&lt;p&gt;If you ask anyone who knows me, I&amp;rsquo;m probably the biggest Apple fan they know. Ask for a suggestion of what computer to get, and I&amp;rsquo;ll almost certainly either tell you the MacBook Pro, or to wait, because Apple is about to update its hardware finally.&lt;/p&gt;
+
+&lt;p&gt;But recently, I realized I&amp;rsquo;d gotten tired of Apple&amp;rsquo;s attitude toward the desktop. The progress in macOS land has basically been dead since Yosemite, two years ago, and Apple&amp;rsquo;s updates to the platform have been incredibly small. &lt;/p&gt;
+
+&lt;p&gt;Take a look at Sierra: the only feature of note is Siri, which is half-baked as it is, and the things that &lt;em&gt;did&lt;/em&gt; get ported over from iOS are half-done too.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.bloomberg.com/news/articles/2016-12-20/how-apple-alienated-mac-loyalists&quot;&gt;Bloomberg reported in late 2016 that Apple had dismantled the Mac team&lt;/a&gt;, rolling it into the iOS team, and it shows. The new MacBook Pros, released in late 2016, where interesting, but something of a half-hearted shrug in the direction of users: they&amp;rsquo;re &lt;em&gt;okay&lt;/em&gt; machines, but they sure aren&amp;rsquo;t interesting at all. Their hardware is underpowered, focusing on thinness and a gimmicky touch bar rather than power or functionality, the previous tentpoles of the Mac.&lt;/p&gt;
+
+&lt;h3 class=&quot;pull&quot;&gt;“In another sign that the company has prioritized the iPhone, Apple re-organized its software engineering department so there&amp;rsquo;s no longer a dedicated Mac operating system team.”&lt;/h3&gt;
+
+&lt;p&gt;To tell the truth, I&amp;rsquo;m a life-long Windows user that grew to be disillusioned by Microsoft after Windows Vista. It was obvious the company had no strategy or vision, and while Windows 7 smoothed things over a little, Apple&amp;rsquo;s side had something I wanted: everything worked together nicely. &lt;/p&gt;
+
+&lt;p&gt;You could send iMessages from your computer or phone, answer calls wherever you were, and throw files to other devices with ease — and so I was tempted away in early 2013 when Apple released its second-generation 15&amp;quot; Retina MacBook Pro.&lt;/p&gt;
+
+&lt;p&gt;That machine was my first real taste of Apple&amp;rsquo;s world, and I loved it. Everything was designed nicely, and worked well together. Apple&amp;rsquo;s deep roots in Unix meant I actually finally picked up web development for the first time, learnt how to use the terminal deeply, and even gave back to some open-source projects.&lt;/p&gt;
+
+&lt;p&gt;But, about the time I joined Apple&amp;rsquo;s world, the company&amp;rsquo;s attention pivoted. The Mac was no longer important, as the iPhone, iPad and then the iPad Pro became the focus of the company. The message was simple: why do you even need a computer when a tablet and phone can do it all anyway? &lt;/p&gt;
+
+&lt;p&gt;As a result, Apple&amp;rsquo;s focus on the Mac waned: the hardware didn&amp;rsquo;t receive an update for over four years, and then OS X, once regularly updated with interesting features, now only receives the scraps from iOS. If you want to see this in action, check out iMessage on Mac: the flagship feature of iOS, iMessage stickers, barely works on Mac.&lt;/p&gt;
+
+&lt;p&gt;You started seeing this in almost everything: Airdrop, Apple&amp;rsquo;s much-touted feature that lets you easily beam files between computer and phone was my first taste of the company&amp;rsquo;s &amp;ldquo;just works&amp;rdquo; mentality — about 30% of the time it worked every time, and the rest of the time you couldn&amp;rsquo;t connect at all. Then there was handoff, the heralded feature that let you work on one device, then seamlessly move to another. I don&amp;rsquo;t know if I ever got it to work with any sense of reliability.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Even the top end 15&amp;quot; Retina MacBook Pro can&amp;rsquo;t really handle a 4K screen and it&amp;rsquo;s making me sad :(&lt;/p&gt;&amp;mdash; Owen ⚡️ (@ow) &lt;a href=&quot;https://twitter.com/ow/status/759415676046045185&quot;&gt;July 30, 2016&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;script async src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Meanwhile, Microsoft had licked its wounds inflicted by Windows 8, found a passionate new CEO in Satya Nadella, and started doing something interesting with Windows 10: it actually started listening, and implementing, features people wanted. &lt;/p&gt;
+
+&lt;p&gt;I mostly ignored the Windows world until late last year when Microsoft introduced the Windows Linux Subsystem — basically a way to use a Linux terminal natively in Windows — which made me realize that development on Windows might actually be pleasant eventually. I wrote back then that even this was enough to tempt me back to Windows, and it was a game changer.&lt;/p&gt;
+
+&lt;h3 class=&quot;pull&quot;&gt;“At its core, Bash support on Windows is both exciting and an incredible feat of engineering. As a front-end developer, I’d now consider buying a Windows machine to replace my Macbook, where I wouldn’t have in the past.”&lt;/h3&gt;
+
+&lt;p&gt;After waiting eagerly for the MacBook Pro refresh, then being utterly disappointed by what Apple actually shipped — a high-end priced laptop with poor performance — I started wondering if I could go back to Windows. Gaming on Mac, which initially showed promising signs of life had started dying in 2015, since Apple hadn&amp;rsquo;t shipped any meaningful hardware bumps in years, and I was increasingly interested in Virtual Reality&amp;hellip; but Oculus dropped support for the Mac in 2016 for the same reasons. &lt;/p&gt;
+
+&lt;p&gt;Then, in October 2016, Microsoft unveiled the next version of Windows: Creators Update out of nowhere. It brings dedicated gaming features, full OS-level VR support, color customization, a people bar for quick chat and a lot more in a free update. I watched the event with my mouth open (it was the first time I&amp;rsquo;d tuned in to &lt;em&gt;any&lt;/em&gt; Microsoft event in years), wondering how Microsoft was suddenly shipping &lt;strong&gt;awesome&lt;/strong&gt; features out of nowhere.&lt;/p&gt;
+
+&lt;p&gt;This, and seeing all the progress Microsoft was making with the Linux subsystem, as well as Apple&amp;rsquo;s lack of any meaningful progress, made me decide to make the jump back. I&amp;rsquo;m not a hater, I&amp;rsquo;m just tired of not being able to get a machine worth using.&lt;/p&gt;
+
+&lt;h3 class=&quot;pull&quot;&gt;&lt;a href=&quot;https://twitter.com/lapcatsoftware/status/792401114897547264&quot;&gt;“Those complaining about Apple&amp;rsquo;s current Mac lineup are not haters, they&amp;rsquo;re lovers. They&amp;rsquo;ve spent 10+ years and 5+ figures on Macs.”&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;It took me months to convince myself to do it, but I spent weeks poring over forum posts about computer specs and new hardware before realizing how far ahead the PC really is now: the NVIDIA GTX 1080 graphics card is an &lt;em&gt;insane&lt;/em&gt; work-horse that can play any game — VR or otherwise — you can throw at it without breaking a sweat. &lt;/p&gt;
+
+&lt;p&gt;I realized I&amp;rsquo;m &lt;em&gt;so damn tired&lt;/em&gt; of &lt;a href=&quot;https://medium.com/charged-tech/apple-just-told-the-world-it-has-no-idea-who-the-mac-is-for-722a2438389b#.qpzcffe9t&quot;&gt;Apple&amp;rsquo;s sheer mediocrity in both laptops and desktops&lt;/a&gt;, and started actually considering trying Windows again.&lt;/p&gt;
+
+&lt;p&gt;So, in February 2017, I found myself building a computer from scratch. I sold my 15&amp;quot; MacBook Pro (I now use a 12&amp;quot; MacBook Pro for on-the-go productivity), and invested in building a desktop workhorse that would fit my needs and last for a long time. &lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ll spare you too much detail, but if you&amp;rsquo;re interested in my build you can &lt;a href=&quot;https://pcpartpicker.com/list/YCbM6X&quot;&gt;see what parts I ordered here&lt;/a&gt; - the machine is a bit of overkill, but given I want to learn how to develop for VR, it seemed to be a good balance of power and price for the long haul.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/win_dev.jpg&quot; alt=&quot;&quot;&gt;
+&lt;div class=&quot;caption&quot;&gt;Jekyll and Gulp living in harmony&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;Now I&amp;rsquo;ve been on Windows for about six weeks, and while I was expecting to hate it, I&amp;rsquo;ve found myself impressed. It&amp;rsquo;s not perfect, but it&amp;rsquo;s clear Microsoft is sweating the details for the first time in recent memory. I&amp;rsquo;ve got my development environment set up just the way I liked it on Mac, thanks to the Linux subsystem — everything from Jekyll to Gulp works exactly how I&amp;rsquo;d expect.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;d been worried about Microsoft&amp;rsquo;s high-density display support, since it was unusable in Windows 8 and even the original release of Windows 10, but Creator&amp;rsquo;s Update seems to be able to finally handle 4K displays without things just getting weird. &lt;/p&gt;
+
+&lt;p&gt;On top of that? I can play recent games without the PC breaking a sweat, and I&amp;rsquo;ve started experimenting with VR. The HTC Vive is an incredible device, and I&amp;rsquo;m just at the start of figuring out Unity so I can actually create my own things for it.  &lt;/p&gt;
+
+&lt;p&gt;The experience hasn&amp;rsquo;t been all roses — I had forgotten drivers were a thing, and the quality of apps on Windows, while far better than I remember, is sorely lacking. This seems to be getting addressed quickly thanks to &lt;a href=&quot;https://electron.atom.io/&quot;&gt;Electron&lt;/a&gt; apps: Slack, Nylas and Visual Studio Code are awesome, and stand out in the Windows world for being fantastic.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/bash.jpg&quot; alt=&quot;&quot;&gt;
+&lt;div class=&quot;caption&quot;&gt;It seems small, but this is a big deal&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;I don&amp;rsquo;t say this lightly, but Windows is back, and Microsoft is doing a great job. Microsoft is getting better, faster at making Windows good than Apple is getting better at doing &lt;em&gt;anything&lt;/em&gt; to OS X. &lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s a few things I sorely miss: Sketch, which I use a lot for quick design work, iMessage so I don&amp;rsquo;t need to keep pulling out my phone and a handful of other things&amp;hellip; but it&amp;rsquo;s easy enough to live without them.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s clear to me from Apple&amp;rsquo;s language and sheer focus — &lt;em&gt;cough&lt;/em&gt; killing the Airport &lt;em&gt;cough&lt;/em&gt; — that all Apple cares about is iOS, and the iPhone. Maybe they&amp;rsquo;ll ship something awesome out of nowhere that really brings back its &amp;ldquo;productivity&amp;rdquo; play, but the company is busy trying to convince people that its ham-fisted iPad Pro is good for work.&lt;/p&gt;
+
+&lt;p&gt;Over the coming weeks I plan to write about the great parts of Windows, how I got my development environment set up, the apps I use, and, of course, the bad parts. I&amp;rsquo;ll be honest, I can&amp;rsquo;t bring myself to leave Mac at work yet, because I&amp;rsquo;m not convinced there&amp;rsquo;s a good enough Windows laptop yet&amp;hellip; but maybe that will change over time.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re a Mac user sitting, waiting for Apple to &lt;em&gt;maybe&lt;/em&gt; release a real workhorse computer so you can actually do your work, stop what you&amp;rsquo;re doing and take another look at Windows. It&amp;rsquo;s awesome, and now you&amp;rsquo;ll be able to get something with incredible power for a great price that&amp;rsquo;s actually worth using.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/mika.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;style&gt;
+
+.sidebar {
+  margin-top: 500px;
+}
+
+ @media only screen and (max-width : 996px) { 
+     .sidebar {
+         margin-top: 40px;
+     }
+ }
+&lt;/style&gt;
+</description>
+          <pubDate>2017-03-05T00:00:00+01:00</pubDate>
+          <link>http://char.gd/announcements/why-i-left-mac-for-windows/</link>
+          <guid isPermaLink="true">http://char.gd/announcements/why-i-left-mac-for-windows/</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Charged newsletter is back – with its biggest overhaul ever</title>
           <description>&lt;p&gt;I took a big break over the last two months to take a look at Charged newsletter, the state of things and where we could go next. It ended up being a two month long break, but it was well overdue - for over two years I&amp;rsquo;ve been sending it every weekend.&lt;/p&gt;
 
