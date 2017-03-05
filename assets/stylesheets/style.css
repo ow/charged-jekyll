@@ -4864,6 +4864,10 @@ article {
   .post-page .post-image {
     margin-top: -25px;
     margin-bottom: 25px; }
+  .post-page p {
+    font-size: 19px; }
+  .post-page img {
+    text-align: center; }
 
 .soundcloud-holder {
   margin-left: -100px;
@@ -4874,8 +4878,10 @@ article {
   text-align: right; }
 
 .post-content img {
-  max-width: 160%;
-  margin-left: -30%; }
+  margin-top: 30px;
+  min-width: 140%;
+  max-width: 140%;
+  margin-left: -20%; }
 
 .paginate {
   padding-top: 40px;

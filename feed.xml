@@ -30,7 +30,7 @@
 
 &lt;p&gt;You started seeing this in almost everything: Airdrop, Apple&amp;rsquo;s much-touted feature that lets you easily beam files between computer and phone was my first taste of the company&amp;rsquo;s &amp;ldquo;just works&amp;rdquo; mentality — about 30% of the time it worked every time, and the rest of the time you couldn&amp;rsquo;t connect at all. Then there was handoff, the heralded feature that let you work on one device, then seamlessly move to another. I don&amp;rsquo;t know if I ever got it to work with any sense of reliability.&lt;/p&gt;
 
-&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Even the top end 15&amp;quot; Retina MacBook Pro can&amp;rsquo;t really handle a 4K screen and it&amp;rsquo;s making me sad :(&lt;/p&gt;&amp;mdash; Owen ⚡️ (@ow) &lt;a href=&quot;https://twitter.com/ow/status/759415676046045185&quot;&gt;July 30, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Even the top end 15&amp;quot; Retina MacBook Pro can&amp;rsquo;t really handle a 4K screen and it&amp;rsquo;s making me sad :(&lt;/p&gt;&amp;mdash; Owen ⚡️ (@ow) &lt;a href=&quot;https://twitter.com/ow/status/759415676046045185&quot;&gt;July 30, 2016&lt;/a&gt;&lt;/blockquote&gt;
 
 &lt;script async src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 
@@ -54,9 +54,9 @@
 
 &lt;p&gt;So, in February 2017, I found myself building a computer from scratch. I sold my 15&amp;quot; MacBook Pro (I now use a 12&amp;quot; MacBook Pro for on-the-go productivity), and invested in building a desktop workhorse that would fit my needs and last for a long time. &lt;/p&gt;
 
-&lt;p&gt;I&amp;rsquo;ll spare you too much detail, but if you&amp;rsquo;re interested in my build you can &lt;a href=&quot;https://pcpartpicker.com/list/YCbM6X&quot;&gt;see what parts I ordered here&lt;/a&gt; - the machine is a bit of overkill, but given I want to learn how to develop for VR, it seemed to be a good balance of power and price for the long haul.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/win_dev.jpg&quot; alt=&quot;&quot;&gt;
+&lt;p&gt;I&amp;rsquo;ll spare you too much detail, but if you&amp;rsquo;re interested in my build you can &lt;a href=&quot;https://pcpartpicker.com/list/YCbM6X&quot;&gt;see what parts I ordered here&lt;/a&gt; - the machine is a bit of overkill, but given I want to learn how to develop for VR, it seemed to be a good balance of power and price for the long haul.
+b
+&lt;img src=&quot;/assets/images/win_dev.jpg&quot; alt=&quot;&quot;&gt;
 &lt;div class=&quot;caption&quot;&gt;Jekyll and Gulp living in harmony&lt;/div&gt;&lt;/p&gt;
 
 &lt;p&gt;Now I&amp;rsquo;ve been on Windows for about six weeks, and while I was expecting to hate it, I&amp;rsquo;ve found myself impressed. It&amp;rsquo;s not perfect, but it&amp;rsquo;s clear Microsoft is sweating the details for the first time in recent memory. I&amp;rsquo;ve got my development environment set up just the way I liked it on Mac, thanks to the Linux subsystem — everything from Jekyll to Gulp works exactly how I&amp;rsquo;d expect.&lt;/p&gt;
