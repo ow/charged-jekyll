@@ -85,7 +85,7 @@
 &lt;style&gt;
 
 .sidebar {
-  margin-top: 450px;
+  margin-top: 430px;
 }
 
  @media only screen and (max-width : 996px) { 
