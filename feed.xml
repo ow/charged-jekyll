@@ -12,7 +12,7 @@
 
 &lt;p&gt;But recently, I realized I&amp;rsquo;d gotten tired of Apple&amp;rsquo;s attitude toward the desktop. The progress in macOS land has basically been dead since Yosemite, two years ago, and Apple&amp;rsquo;s updates to the platform have been incredibly small. &lt;/p&gt;
 
-&lt;p&gt;Take a look at Sierra: the only feature of note is Siri, which is half-baked as it is, and the things that &lt;em&gt;did&lt;/em&gt; get ported over from iOS are half-done too.&lt;/p&gt;
+&lt;p&gt;Take a look at &lt;a href=&quot;http://www.apple.com/macos/sierra/&quot;&gt;Sierra&lt;/a&gt;: the only feature of note is Siri, which is half-baked as it is, and the things that &lt;em&gt;did&lt;/em&gt; get ported over from iOS are half-done too.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.bloomberg.com/news/articles/2016-12-20/how-apple-alienated-mac-loyalists&quot;&gt;Bloomberg reported in late 2016 that Apple had dismantled the Mac team&lt;/a&gt;, rolling it into the iOS team, and it shows. The new MacBook Pros, released in late 2016, where interesting, but something of a half-hearted shrug in the direction of users: they&amp;rsquo;re &lt;em&gt;okay&lt;/em&gt; machines, but they sure aren&amp;rsquo;t interesting at all. Their hardware is underpowered, focusing on thinness and a gimmicky touch bar rather than power or functionality, the previous tentpoles of the Mac.&lt;/p&gt;
 
@@ -54,9 +54,9 @@
 
 &lt;p&gt;So, in February 2017, I found myself building a computer from scratch. I sold my 15&amp;quot; MacBook Pro (I now use a 12&amp;quot; MacBook Pro for on-the-go productivity), and invested in building a desktop workhorse that would fit my needs and last for a long time. &lt;/p&gt;
 
-&lt;p&gt;I&amp;rsquo;ll spare you too much detail, but if you&amp;rsquo;re interested in my build you can &lt;a href=&quot;https://pcpartpicker.com/list/YCbM6X&quot;&gt;see what parts I ordered here&lt;/a&gt; - the machine is a bit of overkill, but given I want to learn how to develop for VR, it seemed to be a good balance of power and price for the long haul.
-b
-&lt;img src=&quot;/assets/images/win_dev.jpg&quot; alt=&quot;&quot;&gt;
+&lt;p&gt;I&amp;rsquo;ll spare you too much detail, but if you&amp;rsquo;re interested in my build you can &lt;a href=&quot;https://pcpartpicker.com/list/YCbM6X&quot;&gt;see what parts I ordered here&lt;/a&gt; - the machine is a bit of overkill, but given I want to learn how to develop for VR, it seemed to be a good balance of power and price for the long haul.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/win_dev.jpg&quot; alt=&quot;&quot;&gt;
 &lt;div class=&quot;caption&quot;&gt;Jekyll and Gulp living in harmony&lt;/div&gt;&lt;/p&gt;
 
 &lt;p&gt;Now I&amp;rsquo;ve been on Windows for about six weeks, and while I was expecting to hate it, I&amp;rsquo;ve found myself impressed. It&amp;rsquo;s not perfect, but it&amp;rsquo;s clear Microsoft is sweating the details for the first time in recent memory. I&amp;rsquo;ve got my development environment set up just the way I liked it on Mac, thanks to the Linux subsystem — everything from Jekyll to Gulp works exactly how I&amp;rsquo;d expect.&lt;/p&gt;
@@ -82,19 +82,6 @@ b
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/mika.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 
-&lt;style&gt;
-
-.sidebar {
-  margin-top: 430px;
-}
-
- @media only screen and (max-width : 996px) { 
-     .sidebar {
-         margin-top: 40px;
-     }
- }
-&lt;/style&gt;
-
 &lt;script&gt;
 
 $(document).ready(function () {  
@@ -118,7 +105,7 @@ collapseConvert();
 &lt;p&gt;Today, &lt;a href=&quot;http://charged1.createsend.com/t/ViewEmailArchive/i/DD00A51F026183B0/C67FD2F38AC4859C/&quot;&gt;Charged newsletter is back, and it&amp;rsquo;s better than ever&lt;/a&gt;. For the first time in two years I&amp;rsquo;ve built the entire newsletter from the ground up &lt;a href=&quot;http://foundation.zurb.com/emails.html&quot;&gt;using a framework called Ink&lt;/a&gt; that means you don&amp;rsquo;t have to use the old-school HTML that email traditionally demands. That means it&amp;rsquo;s far more maintainable, and works in almost all email clients – even Outlook 2007!&lt;/p&gt;
 
 &lt;div style=&quot;text-align: center;&quot;&gt;
-&lt;img style=&quot;max-width: 50%; margin-left:0px; margin-bottom: 15px;&quot; src=&quot;/assets/images/charged_mobile.png&quot;&gt;
+&lt;img style=&quot;max-width: 50%; min-width:50%; margin-left:0px; margin-bottom: 15px;&quot; src=&quot;/assets/images/charged_mobile.png&quot;&gt;
 &lt;/div&gt;
 
 &lt;p&gt;With a more modern design, that finally matches this website, a cleaner layout, and proper email client support, Charged is better than ever! I&amp;rsquo;m planning to share more in-depth analysis of single stories both in the newsletter and here, as well as dive even deeper in the podcast, which is out every week too!&lt;/p&gt;
