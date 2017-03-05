@@ -2,21 +2,24 @@
 layout: post
 title: 'Why I left Mac for Windows: Apple has given up'
 featured_wide: "/assets/images/test_win_sm.jpg"
-categories: announcements
+featured: "/assets/images/mika.jpg"
+categories: microsoft
 date: 2017-03-05
 type: post
 comments: true
-description: "I'm a die-hard Apple user, but after years of watching the Mac slowly die, I've switched back to Windows. Here's the story of why."
+description: "I'm a die-hard Apple user, but after years of watching the Mac slowly die, I've switched back to Windows. Here's the story of why I moved back to Windows, and what I've found so far."
 ---
 If you ask anyone who knows me, I'm probably the biggest Apple fan they know. Ask for a suggestion of what computer to get, and I'll almost certainly either tell you the MacBook Pro, or to wait, because Apple is about to update its hardware finally.
 
-But recently, I realized I'd gotten tired of Apple's attitude toward the desktop. The progress in macOS land has basically been dead since Yosemite, two years ago, and Apple's updates to the platform have been incredibly small. 
+But recently, I realized I'd gotten tired of Apple's attitude toward the desktop. The progress in macOS land has basically been dead since Yosemite, two years ago, and Apple's updates to the platform have been incredibly small. I'm a developer, and it seems to me Apple doesn't pay any attention to its software or care about the hundreds of thousands of developers that have embraced the Mac as their go-to platform.
 
-Take a look at Sierra: the only feature of note is Siri, which is half-baked as it is, and the things that *did* get ported over from iOS are half-done too.
+Take a look at [Sierra](http://www.apple.com/macos/sierra/): the only feature of note is Siri, which is half-baked as it is, and the things that *did* get ported over from iOS are half-done too. On the developer side? Nothing, unless you use XCode — the same story it's been for years. 
+
+The only reason it's still even viable as a platform for web developers at all is because of the incredible work the open source community does on the Mac toolchain (take a look at how easy it is to use Node, npm, Yarn or any of the other relatively new tools out there).
 
 [Bloomberg reported in late 2016 that Apple had dismantled the Mac team](https://www.bloomberg.com/news/articles/2016-12-20/how-apple-alienated-mac-loyalists), rolling it into the iOS team, and it shows. The new MacBook Pros, released in late 2016, where interesting, but something of a half-hearted shrug in the direction of users: they're *okay* machines, but they sure aren't interesting at all. Their hardware is underpowered, focusing on thinness and a gimmicky touch bar rather than power or functionality, the previous tentpoles of the Mac.
 
-<h3 class="pull">“In another sign that the company has prioritized the iPhone, Apple re-organized its software engineering department so there's no longer a dedicated Mac operating system team.”</h3>
+<h3 class="pull"><a href="https://www.bloomberg.com/news/articles/2016-12-20/how-apple-alienated-mac-loyalists">“In another sign that the company has prioritized the iPhone, Apple re-organized its software engineering department so there's no longer a dedicated Mac operating system team.”</a></h3>
 
 To tell the truth, I'm a life-long Windows user that grew to be disillusioned by Microsoft after Windows Vista. It was obvious the company had no strategy or vision, and while Windows 7 smoothed things over a little, Apple's side had something I wanted: everything worked together nicely. 
 
@@ -30,18 +33,20 @@ As a result, Apple's focus on the Mac waned: the hardware didn't receive an upda
 
 You started seeing this in almost everything: Airdrop, Apple's much-touted feature that lets you easily beam files between computer and phone was my first taste of the company's "just works" mentality — about 30% of the time it worked every time, and the rest of the time you couldn't connect at all. Then there was handoff, the heralded feature that let you work on one device, then seamlessly move to another. I don't know if I ever got it to work with any sense of reliability.
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Even the top end 15&quot; Retina MacBook Pro can&#39;t really handle a 4K screen and it&#39;s making me sad :(</p>&mdash; Owen ⚡️ (@ow) <a href="https://twitter.com/ow/status/759415676046045185">July 30, 2016</a></blockquote>
+<blockquote class="twitter-tweet tw-align-center" data-lang="en"><p lang="en" dir="ltr">I&#39;m out of apologia juice for defending Apple going with 4 USB-C ports on the new MacBook over a useful mix and keeping the MagSafe. 🍎👎</p>&mdash; DHH (@dhh) <a href="https://twitter.com/dhh/status/791802133238599680">October 28, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Meanwhile, Microsoft had licked its wounds inflicted by Windows 8, found a passionate new CEO in Satya Nadella, and started doing something interesting with Windows 10: it actually started listening, and implementing, features people wanted. 
 
-I mostly ignored the Windows world until late last year when Microsoft introduced the Windows Linux Subsystem — basically a way to use a Linux terminal natively in Windows — which made me realize that development on Windows might actually be pleasant eventually. I wrote back then that even this was enough to tempt me back to Windows, and it was a game changer.
+I mostly ignored the Windows world until late last year when Microsoft introduced the Windows Linux Subsystem — basically a way to use a Linux terminal natively in Windows — which made me realize that development on Windows might actually be pleasant eventually. I wrote back then that even this was enough to tempt me back to Windows, and it was a game changer:
 
-<h3 class="pull">“At its core, Bash support on Windows is both exciting and an incredible feat of engineering. As a front-end developer, I’d now consider buying a Windows machine to replace my Macbook, where I wouldn’t have in the past.”</h3>
+<h3 class="pull"><a href="https://thenextweb.com/opinion/2016/03/31/bash-windows-incredibly-exciting-frightening/">“At its core, Bash support on Windows is both exciting and an incredible feat of engineering. As a front-end developer, I’d now consider buying a Windows machine to replace my Macbook, where I wouldn’t have in the past.”</a></h3>
 
 After waiting eagerly for the MacBook Pro refresh, then being utterly disappointed by what Apple actually shipped — a high-end priced laptop with poor performance — I started wondering if I could go back to Windows. Gaming on Mac, which initially showed promising signs of life had started dying in 2015, since Apple hadn't shipped any meaningful hardware bumps in years, and I was increasingly interested in Virtual Reality... but Oculus dropped support for the Mac in 2016 for the same reasons. 
 
-Then, in October 2016, Microsoft unveiled the next version of Windows: Creators Update out of nowhere. It brings dedicated gaming features, full OS-level VR support, color customization, a people bar for quick chat and a lot more in a free update. I watched the event with my mouth open (it was the first time I'd tuned in to *any* Microsoft event in years), wondering how Microsoft was suddenly shipping **awesome** features out of nowhere.
+Then, in October 2016, Microsoft unveiled the next version of Windows: Creators Update out of nowhere. It brings dedicated gaming features, full OS-level VR support, color customization, a people bar for quick chat and a lot more in a free update. 
+
+I watched the event with my mouth open (it was the first time I'd tuned in to *any* Microsoft event in years), wondering how Microsoft was suddenly shipping **awesome** features out of nowhere.
 
 This, and seeing all the progress Microsoft was making with the Linux subsystem, as well as Apple's lack of any meaningful progress, made me decide to make the jump back. I'm not a hater, I'm just tired of not being able to get a machine worth using.
 
@@ -81,15 +86,10 @@ If you're a Mac user sitting, waiting for Apple to *maybe* release a real workho
 
 ![](/assets/images/mika.jpg)
 
-<style>
 
-.sidebar {
-  margin-top: 500px;
-}
+<script>
 
- @media only screen and (max-width : 996px) { 
-     .sidebar {
-         margin-top: 40px;
-     }
- }
-</style>
+$(document).ready(function () {  
+collapseConvert();
+});
+</script> 

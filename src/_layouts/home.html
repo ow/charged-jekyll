@@ -5,7 +5,11 @@
 
   <body>
     {% include convert.html %}
-
+          {%if page.featured_wide%}
+    <figure class="full-width">
+    <img src="{{page.featured_wide}}" alt="">
+    </figure>
+  {% endif %}
     {% include header.html %}
 
     <div class="container">

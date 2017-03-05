@@ -1,29 +1,25 @@
 ---
 layout: home
 ---
-
 <div class="contents">
   <article class="post-page" itemscope itemtype="http://schema.org/BlogPosting">  
   <div class="container">
     <div class="row">
-      <div class="col-lg-6 col-lg-offset-3">
-          {%if page.featured_wide%}
-    <figure class="full-width">
-    <!-- could be whatever content -->
-    <img src="{{page.featured_wide}}" alt="">
-    </figure>
-  {% endif %}
+      <div class="col-lg-8 col-lg-offset-2">
+
         <header class="post-header">
           <span class="post-meta muted uppercase"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</span>
           <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
         </header>
-        {%if page.featured%}
+      {%if page.featured_wide%}
+   
+      {% else %}
           <img class="featured post-image" src="{{page.featured}}">
         {% endif %}
-      </div>
+      </div> 
     </div>
-    <div class="row">
-      <div class="col-lg-6 col-lg-offset-3">
+    <div class="row"> 
+      <div class="col-lg-8 col-lg-offset-2">
         <div class="post-content" itemprop="articleBody">
           {{ content }}
         </div>
@@ -37,7 +33,7 @@ layout: home
         <p>Owen was previously Editor at The Next Web and now runs digital at VanMoof in Amsterdam. He created Charged newsletter, and is probably far too obsessed with keeping up with everything in tech.</p>
       </div>
       {% if page.comments %}
-    <div class="col-lg-6 col-lg-offset-3">
+    <div class="col-lg-8 col-lg-offset-2">
       {% include disqus.html %}
     </div>
     {% endif %}

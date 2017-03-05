@@ -34,9 +34,15 @@
   .post-content {
   img {
     max-width: 100%;
+    min-width: 100%;
+    width: 100%;
     height: auto;
     margin: auto;
   }
+  }
+
+  .full-width {
+    display: none;
   }
 
   .convert {

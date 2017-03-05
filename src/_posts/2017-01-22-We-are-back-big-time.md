@@ -14,7 +14,7 @@ Stepping back was good, and gave me time to reflect on things. When I started ou
 Today, [Charged newsletter is back, and it's better than ever](http://charged1.createsend.com/t/ViewEmailArchive/i/DD00A51F026183B0/C67FD2F38AC4859C/). For the first time in two years I've built the entire newsletter from the ground up [using a framework called Ink](http://foundation.zurb.com/emails.html) that means you don't have to use the old-school HTML that email traditionally demands. That means it's far more maintainable, and works in almost all email clients – even Outlook 2007!
 
 <div style="text-align: center;">
-<img style="max-width: 50%; margin-left:0px; margin-bottom: 15px;" src="/assets/images/charged_mobile.png">
+<img style="max-width: 50%; min-width:50%; margin-left:0px; margin-bottom: 15px;" src="/assets/images/charged_mobile.png">
 </div>
 With a more modern design, that finally matches this website, a cleaner layout, and proper email client support, Charged is better than ever! I'm planning to share more in-depth analysis of single stories both in the newsletter and here, as well as dive even deeper in the podcast, which is out every week too!
 
