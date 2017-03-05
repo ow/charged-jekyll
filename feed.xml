@@ -94,6 +94,13 @@
      }
  }
 &lt;/style&gt;
+
+&lt;script&gt;
+
+$(document).ready(function () {  
+collapseConvert();
+});
+&lt;/script&gt; 
 </description>
           <pubDate>2017-03-05T00:00:00+01:00</pubDate>
           <link>http://char.gd/microsoft/why-i-left-mac-for-windows/</link>
