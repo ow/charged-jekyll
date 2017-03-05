@@ -1,11 +1,18 @@
 ---
 layout: home
 ---
+
 <div class="contents">
-  <article class="post-page" itemscope itemtype="http://schema.org/BlogPosting">
+  <article class="post-page" itemscope itemtype="http://schema.org/BlogPosting">  
   <div class="container">
     <div class="row">
       <div class="col-lg-6 col-lg-offset-3">
+          {%if page.featured_wide%}
+    <figure class="full-width">
+    <!-- could be whatever content -->
+    <img src="{{page.featured_wide}}" alt="">
+    </figure>
+  {% endif %}
         <header class="post-header">
           <span class="post-meta muted uppercase"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</span>
           <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>

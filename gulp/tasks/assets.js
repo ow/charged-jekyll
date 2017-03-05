@@ -97,7 +97,7 @@ function reload(done) {
 gulp.task('serve', (done) => {
   browserSync.init({
     // tunnel: true,
-    // open: false,
+     open: false,
     server: ['.tmp', 'dist']
   });
   done();

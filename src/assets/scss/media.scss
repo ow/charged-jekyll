@@ -25,6 +25,12 @@
     }
  }
  @media only screen and (max-width : 480px) {
+
+   .pull {
+     margin-left: 10px;
+     margin-right: 10px;
+     font-size: 18px;
+   }
   .post-content {
   img {
     max-width: 100%;
