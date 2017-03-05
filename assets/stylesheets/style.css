@@ -5134,6 +5134,8 @@ article {
     width: 100%;
     height: auto;
     margin: auto; }
+  .full-width {
+    display: none; }
   .convert .podcast {
     margin-top: 15px; }
   h1 {
