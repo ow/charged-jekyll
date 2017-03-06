@@ -90,7 +90,7 @@
 
 $(document).ready(function () {  
       var cookieSet = Cookies.get('charged_convert'); 
-    if(cookieSet != true) {
+    if(cookieSet != &quot;true&quot;) {
 $('.convert').addClass(&quot;collapsed&quot;);
 $('.collapse-hide').fadeToggle();
 $('.collapse-show').fadeToggle();
