@@ -89,9 +89,12 @@
 &lt;script&gt;
 
 $(document).ready(function () {  
+      var cookieSet = Cookies.get('charged_convert'); 
+    if(cookieSet != true) {
 $('.convert').addClass(&quot;collapsed&quot;);
 $('.collapse-hide').fadeToggle();
 $('.collapse-show').fadeToggle();
+    }
 });
 &lt;/script&gt; 
 </description>

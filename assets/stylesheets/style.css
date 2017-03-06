@@ -4917,7 +4917,7 @@ article {
     background: transparent;
     border: none; }
   .convert .collapse-hide {
-    display: none; }
+    display: none !important; }
   .convert .collapse-show {
     display: none; }
   .convert .copy {
