@@ -30,7 +30,7 @@ $(function() {
 
 
 
-  var cookieSet = Cookies.get('charged_convert');
+  var cookieSet = Cookies.get('charged_convert'); 
 
   if(cookieSet != "true") {
     $('.collapse-hide').fadeIn();
