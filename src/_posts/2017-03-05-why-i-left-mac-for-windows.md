@@ -56,7 +56,7 @@ It took me months to convince myself to do it, but I spent weeks poring over for
 
 I realized I'm *so damn tired* of [Apple's sheer mediocrity in both laptops and desktops](https://medium.com/charged-tech/apple-just-told-the-world-it-has-no-idea-who-the-mac-is-for-722a2438389b#.qpzcffe9t), and started actually considering trying Windows again.
 
-So, in February 2017, I found myself building a computer from scratch. I sold my 15" MacBook Pro (I now use a 12" MacBook Pro for on-the-go productivity), and invested in building a desktop workhorse that would fit my needs and last for a long time. 
+So, in February 2017, I found myself building a computer from scratch. I sold my 15" MacBook Pro (I now use a 12" MacBook for on-the-go productivity), and invested in building a desktop workhorse that would fit my needs and last for a long time. 
 
 I'll spare you too much detail, but if you're interested in my build you can [see what parts I ordered here](https://pcpartpicker.com/list/YCbM6X) - the machine is a bit of overkill, but given I want to learn how to develop for VR, it seemed to be a good balance of power and price for the long haul.
 
@@ -69,7 +69,7 @@ I'd been worried about Microsoft's high-density display support, since it was un
 
 On top of that? I can play recent games without the PC breaking a sweat, and I've started experimenting with VR. The HTC Vive is an incredible device, and I'm just at the start of figuring out Unity so I can actually create my own things for it.  
 
-The experience hasn't been all roses — I had forgotten drivers were a thing, and the quality of apps on Windows, while far better than I remember, is sorely lacking. This seems to be getting addressed quickly thanks to [Electron](https://electron.atom.io/) apps: Slack, Nylas and Visual Studio Code are awesome, and stand out in the Windows world for being fantastic.
+The experience hasn't been all roses — I had forgotten drivers were a thing, and the quality of apps on Windows, while far better than I remember, is sorely lacking. This seems to be getting addressed quickly thanks to [Electron](https://electron.atom.io/) apps: Slack, [Nylas](https://nylas.com), [Hyper](https://hyper.is/) and [Visual Studio Code](https://code.visualstudio.com/) are awesome, and stand out in the Windows world for being fantastic.
 
 ![](/assets/images/bash.jpg)
 <div class="caption">It seems small, but this is a big deal</div>
