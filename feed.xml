@@ -89,7 +89,7 @@
 &lt;script&gt;
 
 $(document).ready(function () {  
-collapseConvert();
+$('.convert').addClass(&quot;collapsed&quot;);
 });
 &lt;/script&gt; 
 </description>
