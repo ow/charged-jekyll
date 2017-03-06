@@ -28,8 +28,6 @@ $(function() {
         });
     });
 
-
-
   var cookieSet = Cookies.get('charged_convert'); 
 
   if(cookieSet != "true") {
