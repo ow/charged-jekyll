@@ -701,7 +701,10 @@ $(function() {
     $('.convert').removeClass("collapsed");
   }
   else {
-    $('.collapse-show').fadeIn(750);
+    console.log(this.pathname);
+    if(this.pathname != "/microsoft/why-i-left-mac-for-windows") {
+      $('.collapse-show').fadeIn(750);
+    }
   }
 
    $('#close').click(function(){
