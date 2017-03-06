@@ -1397,6 +1397,9 @@ pre {
   .form-control::-webkit-input-placeholder {
     color: #999;
     opacity: 1; }
+  .form-control::-moz-placeholder {
+    color: #999;
+    opacity: 1; }
   .form-control:-ms-input-placeholder {
     color: #999;
     opacity: 1; }
@@ -5015,6 +5018,9 @@ article {
     font-size: 14px;
     padding: 10px 10px 5px 5px; }
     .convert .header input::-webkit-input-placeholder {
+      font-size: 14px;
+      color: white; }
+    .convert .header input::-moz-placeholder {
       font-size: 14px;
       color: white; }
     .convert .header input:-ms-input-placeholder {
