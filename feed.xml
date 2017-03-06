@@ -16,7 +16,7 @@
 
 &lt;p&gt;The only reason it&amp;rsquo;s still even viable as a platform for web developers at all is because of the incredible work the open source community does on the Mac toolchain (take a look at how easy it is to use Node, npm, Yarn or any of the other relatively new tools out there).&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.bloomberg.com/news/articles/2016-12-20/how-apple-alienated-mac-loyalists&quot;&gt;Bloomberg reported in late 2016 that Apple had dismantled the Mac team&lt;/a&gt;, rolling it into the iOS team, and it shows. The new MacBook Pros, released in late 2016, where interesting, but something of a half-hearted shrug in the direction of users: they&amp;rsquo;re &lt;em&gt;okay&lt;/em&gt; machines, but they sure aren&amp;rsquo;t interesting at all. Their hardware is underpowered, focusing on thinness and a gimmicky touch bar rather than power or functionality, the previous tentpoles of the Mac.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.bloomberg.com/news/articles/2016-12-20/how-apple-alienated-mac-loyalists&quot;&gt;Bloomberg reported in late 2016 that Apple had dismantled the Mac team&lt;/a&gt;, rolling it into the iOS team, and it shows. The new MacBook Pros, released in late 2016 were interesting, but something of a half-hearted shrug in the direction of long-time users: they&amp;rsquo;re &lt;em&gt;okay&lt;/em&gt; machines, but they sure aren&amp;rsquo;t interesting at all. Their hardware is underpowered, focusing on thinness and a gimmicky touch bar rather than power or functionality, the previous tentpoles of the Mac.&lt;/p&gt;
 
 &lt;h3 class=&quot;pull&quot;&gt;&lt;a href=&quot;https://www.bloomberg.com/news/articles/2016-12-20/how-apple-alienated-mac-loyalists&quot;&gt;“In another sign that the company has prioritized the iPhone, Apple re-organized its software engineering department so there&amp;rsquo;s no longer a dedicated Mac operating system team.”&lt;/a&gt;&lt;/h3&gt;
 
@@ -90,10 +90,11 @@
 
 $(document).ready(function () {  
       var cookieSet = Cookies.get('charged_convert'); 
+      console.log(cookieSet);
     if(cookieSet != &quot;true&quot;) {
-$('.convert').addClass(&quot;collapsed&quot;);
-$('.collapse-hide').fadeToggle();
-$('.collapse-show').fadeToggle();
+        $('.convert').addClass(&quot;collapsed&quot;); 
+        $('.collapse-hide').fadeToggle();
+        $('.collapse-show').fadeToggle();
     }
 });
 &lt;/script&gt; 
