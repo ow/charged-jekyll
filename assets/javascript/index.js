@@ -696,17 +696,12 @@ $(function() {
   var cookieSet = Cookies.get('charged_convert'); 
 
   if(cookieSet != "true") {
-    if(this.pathname != "/microsoft/why-i-left-mac-for-windows") {
-      $('.collapse-hide').fadeIn();
-      $('.collapse-show').fadeOut();
-      $('.convert').removeClass("collapsed");
-    }
+    $('.collapse-hide').fadeIn();
+    $('.collapse-show').fadeOut();
+    $('.convert').removeClass("collapsed");
   }
   else {
-    if(this.pathname != "/microsoft/why-i-left-mac-for-windows") {
-      console.log(this.pathname);
-      $('.collapse-show').fadeIn(750);
-    }
+    $('.collapse-show').fadeIn(750);
   }
 
    $('#close').click(function(){
