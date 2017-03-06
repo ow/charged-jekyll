@@ -694,11 +694,8 @@ $(function() {
     });
 
   var cookieSet = Cookies.get('charged_convert'); 
-  var slug = $(this).attr('href').split('/');
-  console.log(slug);
-  
+
   if(cookieSet != "true") {
-    console.log(this.pathname);
     if(this.pathname != "/microsoft/why-i-left-mac-for-windows") {
       $('.collapse-hide').fadeIn();
       $('.collapse-show').fadeOut();
