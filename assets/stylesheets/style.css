@@ -4683,7 +4683,8 @@ p, ul {
   margin-left: -50vw;
   margin-right: -50vw; }
   .full-width img {
-    width: 100%; }
+    width: 100%;
+    margin-top: -10px; }
 
 .caption {
   font-size: 12px;
