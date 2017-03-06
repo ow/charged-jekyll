@@ -3,6 +3,7 @@ layout: post
 title: 'Why I left Mac for Windows: Apple has given up'
 featured_wide: "/assets/images/test_win_sm.jpg"
 featured: "/assets/images/mika.jpg"
+image: "/assets/images/mika_crop.jpg"
 categories: microsoft
 date: 2017-03-05
 type: post
@@ -12,7 +13,7 @@ description: "I'm a die-hard Apple user, but after years of watching the Mac slo
 If you ask anyone who knows me, I'm probably the biggest Apple fan they know. Ask for a suggestion of what computer to get, and I'll almost certainly either tell you the MacBook Pro, or to wait, because Apple is about to update its hardware finally.
 
 But recently, I realized I'd gotten tired of Apple's attitude toward the desktop. The progress in macOS land has basically been dead since Yosemite, two years ago, and Apple's updates to the platform have been incredibly small. I'm a developer, and it seems to me Apple doesn't pay any attention to its software or care about the hundreds of thousands of developers that have embraced the Mac as their go-to platform.
-
+ 
 Take a look at [Sierra](http://www.apple.com/macos/sierra/): the only feature of note is Siri, which is half-baked as it is, and the things that *did* get ported over from iOS are half-done too. On the developer side? Nothing, unless you use XCode — the same story it's been for years. 
 
 The only reason it's still even viable as a platform for web developers at all is because of the incredible work the open source community does on the Mac toolchain (take a look at how easy it is to use Node, npm, Yarn or any of the other relatively new tools out there).
@@ -90,6 +91,12 @@ If you're a Mac user sitting, waiting for Apple to *maybe* release a real workho
 <script>
 
 $(document).ready(function () {  
-collapseConvert();
+      var cookieSet = Cookies.get('charged_convert'); 
+      console.log(cookieSet);
+    if(cookieSet != "true") {
+        $('.convert').addClass("collapsed"); 
+        $('.collapse-hide').fadeToggle();
+        $('.collapse-show').fadeToggle();
+    }
 });
 </script> 

@@ -19,6 +19,17 @@ author:
   bio:
   twitter: ow
   github: ow
+  facebook: Ow3n.williams
+
+twitter:
+  username: chargedtech
+
+social:
+  name: Owen Williams
+  links:
+    - https://twitter.com/ow
+    - https://www.facebook.com/Ow3n.Williams
+    - https://github.com/ow
 
 collections:
   podcasts:
