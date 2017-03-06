@@ -686,16 +686,14 @@ $(function() {
     History.Adapter.bind(window, 'statechange', function(){
         var State = History.getState();
         $.get(State.url, function(data){
-            document.title = $(data).find("title").text();
+            document.title = $(data).find(".post-title").text();
             $('.contents').html($(data).find('.contents'));
             ga('set', { page: State.url});
             ga('send', 'pageview');
         });
     });
 
-
-
-  var cookieSet = Cookies.get('charged_convert');
+  var cookieSet = Cookies.get('charged_convert'); 
 
   if(cookieSet != "true") {
     $('.collapse-hide').fadeIn();

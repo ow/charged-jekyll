@@ -5105,6 +5105,8 @@ article {
     transform: rotate(360deg); } }
 
 @media only screen and (max-width: 996px) {
+  .convert {
+    padding-bottom: 40px; }
   .sidebar {
     position: inherit;
     margin-top: 40px;
