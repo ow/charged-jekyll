@@ -90,6 +90,8 @@
 
 $(document).ready(function () {  
 $('.convert').addClass(&quot;collapsed&quot;);
+$('.collapse-hide').fadeToggle();
+$('.collapse-show').fadeToggle();
 });
 &lt;/script&gt; 
 </description>
