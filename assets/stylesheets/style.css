@@ -4673,7 +4673,6 @@ p, ul {
   height: 40px; }
 
 .full-width {
-  margin-top: -100px;
   width: 100vw;
   position: relative;
   left: 50%;
