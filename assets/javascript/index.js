@@ -751,5 +751,5 @@ $(document).ready(function () {
       $('#sticky').removeClass('stick');
     }
   }); */
-});
+}); 
 //# sourceMappingURL=index.js.map

@@ -7,6 +7,205 @@
     
       
         <item>
+          <title>How to set up the perfect modern dev environment on Windows</title>
+          <description>&lt;p&gt;Last week I wrote about switching to Windows from Mac for good, and a number of people wrote in to me from one of two buckets:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Why don&amp;rsquo;t you just code on Linux?&lt;/li&gt;
+&lt;li&gt;How can you code in a nice way on Windows? &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As a result, I thought I&amp;rsquo;d share the setup I&amp;rsquo;ve made for my modern front-end development workflow on Windows, along with the quirks and benefits of coding on a platform like Windows 10.&lt;/p&gt;
+
+&lt;p&gt;The only reason coding directly in Windows is suddenly so feasible is thanks to Microsoft&amp;rsquo;s work on the Windows Linux Subsystem, which gives you a fully-fledged Ubuntu install right at the command line — and it works surprisingly well.&lt;/p&gt;
+
+&lt;p&gt;I &lt;em&gt;could&lt;/em&gt; code on Linux, and certainly the Ubuntu desktop has come a long way from the old days, but dual-booting to Linux seems annoying to me, and I don&amp;rsquo;t want to have to configure two operating systems. &lt;/p&gt;
+
+&lt;p&gt;If I can use the Windows desktop, play games, do day-to-day work &lt;em&gt;and&lt;/em&gt; code in one place, I sure as hell want to&amp;hellip; and Windows 10 is actually pretty damn nice.&lt;/p&gt;
+
+&lt;h4&gt;Getting started&lt;/h4&gt;
+
+&lt;p&gt;First up, make sure you have &lt;a href=&quot;https://www.microsoft.com/en-us/windows/upcoming-features&quot;&gt;Windows 10 Creator&amp;rsquo;s Update installed&lt;/a&gt; — it takes a few minutes to enroll in the Insider Program, which lets you get free preview versions of Windows. The update should be generally available soon, but for now it&amp;rsquo;s better than the base release of Windows 10, and notably improves High-DPI displays for those using 4K monitors.&lt;/p&gt;
+
+&lt;p&gt;The update adds a lot of major improvements to Bash on Windows, &lt;a href=&quot;https://blogs.msdn.microsoft.com/commandline/2016/10/07/wsl-adds-inotify-filesystem-change-notification-support/&quot;&gt;most notably support for iNotify&lt;/a&gt; which allows file system watchers to work natively — an important requirement for me.  &lt;/p&gt;
+
+&lt;p&gt;Once you&amp;rsquo;re all set up, the first thing you want to do is enable Windows Developer mode. Head to the Settings app, then &amp;ldquo;Update &amp;amp; Security&amp;rdquo; and click &amp;ldquo;For developers&amp;rdquo; in the bar on the left. On this screen, choose &amp;ldquo;Developer Mode&amp;rdquo; then accept the warning that pops up.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/devmode.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;ll take a few seconds to install the &amp;ldquo;Developer Mode&amp;rdquo; package, but after that, head back to the top level of the Settings app, and then &amp;ldquo;Apps &amp;amp; Features&amp;rdquo; and click &amp;ldquo;Programs and Features&amp;rdquo; on the right, then &amp;ldquo;Turn Windows features on or off&amp;rdquo; on the left (this part is particularly fiddly for no good reason).&lt;/p&gt;
+
+&lt;p&gt;Once you&amp;rsquo;re there, scroll down to &lt;code&gt;Windows Subsystem for Linux (Beta)&lt;/code&gt; and check the box, then hit OK. It&amp;rsquo;ll think about it, then ask you to reboot — make sure to do that, so the kernel extensions are enabled. This bit will take a while, assumably because installing Linux &lt;em&gt;inside&lt;/em&gt; Windows and that&amp;rsquo;s er&amp;hellip; a big deal.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/ubuntu_windows_2.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Now it&amp;rsquo;s time to install Node natively in Windows. You&amp;rsquo;re probably never going to use it since you&amp;rsquo;ll be living in WSL-land, but a few of the desktop-side apps still sometimes need it, and things can get funky if you don&amp;rsquo;t do it. &lt;a href=&quot;https://nodejs.org/en/download/&quot;&gt;Grab the Windows installer here&lt;/a&gt;, and just do the defaults. &lt;/p&gt;
+
+&lt;p&gt;One last thing on the setup: you should choose a text editor. I&amp;rsquo;m not going to go into all the options available, but my preference is either Sublime Text or Visual Studio Code, which I eventually settled on. It&amp;rsquo;s good, and natively integrates into Windows really well.&lt;/p&gt;
+
+&lt;h4&gt;Tweak your terminal&lt;/h4&gt;
+
+&lt;div class=&quot;no-pull center&quot;&gt;
+&lt;img src=&quot;/assets/images/bash.jpg&quot;&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now it&amp;rsquo;s almost time to enter Bash-land! One last thing: Windows&amp;rsquo; command line app is awful, so let&amp;rsquo;s get something better.&lt;/p&gt;
+
+&lt;p&gt;There are a few great emulators around like CMDer, but I&amp;rsquo;m partial to &lt;a href=&quot;https://hyper.is/&quot;&gt;Hyper&lt;/a&gt;, which I used on Mac too, because it uses npm for package management and plugins — these instructions are specific to that emulator.&lt;/p&gt;
+
+&lt;p&gt;Once you&amp;rsquo;ve got Hyper installed, open the &lt;code&gt;.hyper.js&lt;/code&gt; configuration file and make one key change. We&amp;rsquo;re going to set it to open Bash by default from now on, so you don&amp;rsquo;t end up in the awful legacy environment wondering why nothing works properly:&lt;/p&gt;
+
+&lt;div class=&quot;no-pull center&quot;&gt;
+&lt;img src=&quot;/assets/images/modify_hyper.jpg&quot;&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Find the &lt;code&gt;shell&lt;/code&gt; line and change it to &lt;code&gt;shell: &amp;#39;C:\\Windows\\System32\\bash.exe&amp;#39;,&lt;/code&gt;. &lt;/p&gt;
+
+&lt;p&gt;Some other useful changes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Install the Inconsolata font and set it to default: &lt;code&gt;fontFamily: &amp;#39;Inconsolata, Consolas, &amp;quot;Lucida Console&amp;quot;, monospace&amp;#39;&lt;/code&gt; &lt;/li&gt;
+&lt;li&gt;Install a better theme: &lt;code&gt;plugins: [&amp;#39;hyper-solarized-dark&amp;#39;],&lt;/code&gt; &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;Now it&amp;rsquo;s time to Bash&lt;/h4&gt;
+
+&lt;div class=&quot;no-pull center&quot;&gt;
+&lt;img src=&quot;/assets/images/bash.jpg&quot;&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The time you&amp;rsquo;ve been waiting for is here! At some point I plan to automate this entire setup, but for now I did it manually for your enjoyment — and because I&amp;rsquo;ve not had time yet.&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s a new concept to get used to here that&amp;rsquo;s important to explain, particularly if you&amp;rsquo;ve used Windows before. WSL (also known as Bash on Windows) lives inside the command prompt of the Operating System. &lt;/p&gt;
+
+&lt;p&gt;We&amp;rsquo;ve set it up to automatically enter bash all the time via Hyper, since it&amp;rsquo;s our preference, but there&amp;rsquo;s still the traditional &lt;code&gt;cmd&lt;/code&gt; instance lingering above you if you type &lt;code&gt;exit&lt;/code&gt; you&amp;rsquo;ll be thrown into there.&lt;/p&gt;
+
+&lt;p&gt;Bash lives in Windows&amp;rsquo; &lt;code&gt;$path&lt;/code&gt; so if you ever find yourself in command-prompt land by accident, just type &lt;code&gt;bash&lt;/code&gt; toget back to safety. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Install your toolchain&lt;/strong&gt;
+&lt;div class=&quot;no-pull center&quot;&gt;
+&lt;img src=&quot;/assets/images/heyzsh.jpg&quot; alt=&quot;&quot;&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;Now you&amp;rsquo;re in bash-land you have the full power of &lt;code&gt;apt-get&lt;/code&gt; at your service, just like on the real Ubuntu. Everything works as you&amp;rsquo;d expect.&lt;/p&gt;
+
+&lt;p&gt;The first time you enter Bash it&amp;rsquo;ll ask you if you wish to install it: make sure to say yes, and it&amp;rsquo;ll take 1-2 minutes as it extracts and sets up.&lt;/p&gt;
+
+&lt;p&gt;Bash will first ask you to create a UNIX username and password: my advice is to make this the same as your Windows credentials, lest you forget and need to re-install Bash from scratch.&lt;/p&gt;
+
+&lt;p&gt;The very first thing you&amp;rsquo;ll want to do after that is install Node, npm, Ruby and a bunch of other useful tools. Run this command to get the basic tooling for modern web development:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo apt-get update &amp;amp;&amp;amp; sudo apt-get install build-essential nginx mysql-server ruby ruby-bundler nodejs git npm yarn ruby-dev&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;While you wait, probably go get a coffee, or check out the list of what we&amp;rsquo;re installing:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ubuntu&amp;rsquo;s build toolchain, so you can build some tools from source if needed, along with a bunch of other handy stuff&lt;/li&gt;
+&lt;li&gt;Added nodejs repository to apt-get&lt;/li&gt;
+&lt;li&gt;nginx web server&lt;/li&gt;
+&lt;li&gt;mysql database&lt;/li&gt;
+&lt;li&gt;Ruby (I use this for Jekyll and a few other projects)&lt;/li&gt;
+&lt;li&gt;Ruby Bundler for Ruby packages as above&lt;/li&gt;
+&lt;li&gt;Ruby dev for building native extensions&lt;/li&gt;
+&lt;li&gt;Node + npm for&amp;hellip; well, everything&lt;/li&gt;
+&lt;li&gt;Git for versioning/cloning repositiories &lt;/li&gt;
+&lt;li&gt;Zsh for a better shell setup&lt;/li&gt;
+&lt;li&gt;Yarn for futuristic package management&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Once that&amp;rsquo;s all done, you probably want to install some Node tooling too. I still use Gulp (yeah, yeah) so here&amp;rsquo;s what I ran immediately after installing the general toolchain to support Gulp:
+&lt;code&gt;sudo npm install -g gulp gulp-cli&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;no-pull center&quot;&gt;
+&lt;img src=&quot;/assets/images/setup.jpg&quot;&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now it&amp;rsquo;s time to switch your shell to Zsh, if you like. I prefer it, for many reasons I won&amp;rsquo;t go into here, but you can skip this step if you like to keep the default. To switch, run this command:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;chsh -s /usr/bin/zsh&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;From here, I immediately cloned my own static site&amp;rsquo;s repository and was able to use Jekyll exactly how I had it configured on Mac by doing the usual &lt;code&gt;bundle install&lt;/code&gt; and &lt;code&gt;npm install&lt;/code&gt; then &lt;code&gt;gulp serve&lt;/code&gt; and everything worked great — including my watch processes, Browsersync and all the other goodness.&lt;/p&gt;
+
+&lt;p&gt;Don&amp;rsquo;t forget to generate a key for using Git. Do the below, then copy your SSH key to GitHub from within Bash, too. Here&amp;rsquo;s how to do that: &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Generate: &lt;code&gt;ssh-keygen -t rsa -b 4096&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Copy key: &lt;code&gt;tail ~/.ssh/id_rsa.pub&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Paste into &lt;a href=&quot;https://github.com/settings/keys&quot;&gt;this page.&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And&amp;hellip; once you exit and re-open your terminal, you can get coding! Here&amp;rsquo;s what the final result looks like when you&amp;rsquo;re using a Jekyll project:&lt;/p&gt;
+
+&lt;div class=&quot;no-pull center&quot;&gt;
+&lt;img src=&quot;/assets/images/itsalive.jpg&quot;&gt;
+&lt;/div&gt;
+
+&lt;h4&gt;Cool stuff&lt;/h4&gt;
+
+&lt;p&gt;The way Bash on Windows works is actually pretty good. This section is an ever-growing list of some tidbits that can save you a little hassle.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Jump into bash where you are&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re using the Windows command line instance, and want to jump into bash inside the folder you&amp;rsquo;re looking at right now, you can! Just type Bash, and it&amp;rsquo;ll launch in the correct directory. &lt;/p&gt;
+
+&lt;p&gt;Even cooler, with Hyper, you can right click any folder in Windows Explorer and click &lt;code&gt;Launch Hyper Here&lt;/code&gt; to get straight into a Bash window. If you&amp;rsquo;re using a different code emulator, you can hold &lt;code&gt;CTRL + SHIFT&lt;/code&gt; when right clicking &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Windows path executables work&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I use Visual Studio Code, which can be launched by typing &lt;code&gt;code .&lt;/code&gt; to open the current directory in the app. The cool thing is this actually works &lt;em&gt;inside Bash&lt;/em&gt; out of the box, because Ubuntu sources Windows&amp;rsquo; path file.&lt;/p&gt;
+
+&lt;p&gt;The same works for other Windows tools, like Sublime Text.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Exposing ports&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Working with nginx or just Jekyll server under Ubuntu? The ports that they create are automatically exposed to Windows, so you can work directly in your desktop browser without any messing around.&lt;/p&gt;
+
+&lt;h4&gt;Sort-of broken stuff&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Fonts&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Lord, almighty fonts on Windows are terrible, and even uglier in any terminal application I can find. Microsoft has done some work to make Cleartype better, but it still physically pains me compared to MacType. I don&amp;rsquo;t know how to fix this.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Opening stuff directly from terminal&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Much of my automation uses the &lt;code&gt;open&lt;/code&gt; command which works great on Mac to pop open a browser as soon as I start a project&amp;rsquo;s watch file up — that doesn&amp;rsquo;t work on Windows + Bash, and I&amp;rsquo;ve no idea how to fix it. For now, I just type it into my browser.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ll add more to this section as I find it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dotfiles&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;They actually work! And I&amp;rsquo;m busy adapting a &lt;a href=&quot;https://github.com/ow/ubuntu-windows-dotfiles&quot;&gt;Ubuntu dotfile setup to Windows&lt;/a&gt;, but it&amp;rsquo;s not perfect yet. Much of the Ubuntu default tooling doesn&amp;rsquo;t come by default, so some things break.&lt;/p&gt;
+
+&lt;p&gt;That said, dotfile customization generally works, and pretty well too:&lt;/p&gt;
+
+&lt;div class=&quot;no-pull center&quot;&gt;
+&lt;img src=&quot;/assets/images/dotfiles.jpg&quot;&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Weird bugs&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;OK, there are a few weird bugs. For the most part, I&amp;rsquo;ve managed to avoid them, but there&amp;rsquo;s one I&amp;rsquo;m yet to figure out: how to escape nano. There&amp;rsquo;s no way to CTRL + C out, and you end up needing to close the terminal. ¯_(ツ)_/¯&lt;/p&gt;
+
+&lt;h4&gt;It&amp;rsquo;s actually really good&lt;/h4&gt;
+
+&lt;p&gt;I originally switched to Mac because I loved the idea of a Unix terminal being right there, and it was clearly the best for web development, but the sheer simplicity of Bash on Windows throws that into question for me.&lt;/p&gt;
+
+&lt;p&gt;Windows 10 is actually really enjoyable to use, finally supports High-DPI screens properly &lt;em&gt;and&lt;/em&gt; caters to developers nicely — the best part is you can get powerful Windows hardware for relatively cheap, compared to a Mac, and much of it is approaching Apple&amp;rsquo;s level of quality.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m using a desktop for the most part, but I&amp;rsquo;m going to be trialling the 2017 Razer Blade, to see how it stacks up in the coming weeks — so look out for the next part in this series.&lt;/p&gt;
+
+&lt;p&gt;This post will be updated over time, as I use Bash/WSL more — if you have any questions or want me to try anything, throw them in the comments!&lt;/p&gt;
+</description>
+          <pubDate>2017-03-11T00:00:00+01:00</pubDate>
+          <link>http://char.gd/microsoft/setting-up-perfect-windows-dev/</link>
+          <guid isPermaLink="true">http://char.gd/microsoft/setting-up-perfect-windows-dev/</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Why I left Mac for Windows: Apple has given up</title>
           <description>&lt;p&gt;If you ask anyone who knows me, I&amp;rsquo;m probably the biggest Apple fan they know. Ask for a suggestion of what computer to get, and I&amp;rsquo;ll almost certainly either tell you the MacBook Pro, or to wait, because Apple is about to update its hardware finally.&lt;/p&gt;
 
@@ -16,7 +215,7 @@
 
 &lt;p&gt;The only reason it&amp;rsquo;s still even viable as a platform for web developers at all is because of the incredible work the open source community does on the Mac toolchain (take a look at how easy it is to use Node, npm, Yarn or any of the other relatively new tools out there).&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.bloomberg.com/news/articles/2016-12-20/how-apple-alienated-mac-loyalists&quot;&gt;Bloomberg reported in late 2016 that Apple had dismantled the Mac team&lt;/a&gt;, rolling it into the iOS team, and it shows. The new MacBook Pros, released in late 2016 were interesting, but something of a half-hearted shrug in the direction of long-time users: they&amp;rsquo;re &lt;em&gt;okay&lt;/em&gt; machines, but they sure aren&amp;rsquo;t interesting at all. Their hardware is underpowered, focusing on thinness and a gimmicky touch bar rather than power or functionality, the previous tentpoles of the Mac.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.bloomberg.com/news/articles/2016-12-20/how-apple-alienated-mac-loyalists&quot;&gt;Bloomberg reported in late 2016 that Apple had dismantled the Mac team&lt;/a&gt;, rolling it into the iOS team, and it shows. The new MacBook Pros, released in late 2016, where interesting, but something of a half-hearted shrug in the direction of users: they&amp;rsquo;re &lt;em&gt;okay&lt;/em&gt; machines, but they sure aren&amp;rsquo;t interesting at all. Their hardware is underpowered, focusing on thinness and a gimmicky touch bar rather than power or functionality, the previous tentpoles of the Mac.&lt;/p&gt;
 
 &lt;h3 class=&quot;pull&quot;&gt;&lt;a href=&quot;https://www.bloomberg.com/news/articles/2016-12-20/how-apple-alienated-mac-loyalists&quot;&gt;“In another sign that the company has prioritized the iPhone, Apple re-organized its software engineering department so there&amp;rsquo;s no longer a dedicated Mac operating system team.”&lt;/a&gt;&lt;/h3&gt;
 
