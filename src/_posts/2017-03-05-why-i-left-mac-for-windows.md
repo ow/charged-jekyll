@@ -87,6 +87,7 @@ If you're a Mac user sitting, waiting for Apple to *maybe* release a real workho
 
 ![](/assets/images/mika.jpg)
 
+**Update: [I've written about how I switched my coding setup to Windows as well, with a complete guide on how to get started.](http://char.gd/microsoft/setting-up-perfect-windows-dev/)**
 
 <script>
 
