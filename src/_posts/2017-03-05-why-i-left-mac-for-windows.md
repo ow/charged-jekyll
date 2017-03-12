@@ -2,7 +2,7 @@
 layout: post
 title: 'Why I left Mac for Windows: Apple has given up'
 featured_wide: "/assets/images/test_win_sm.jpg"
-featured: "/assets/images/mika.jpg"
+featured: "/assets/images/mika_crop.jpg"
 image: "/assets/images/mika_crop.jpg"
 categories: microsoft
 date: 2017-03-05

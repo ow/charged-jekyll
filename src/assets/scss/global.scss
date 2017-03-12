@@ -6,6 +6,13 @@ h1, h2, h3 {
   color: $brand-primary;
 }
 
+h4 {
+  color: $brand-primary;
+  font-family: $h-stack;
+  font-weight: 700;
+  font-size: 30px;
+}
+
 p, body {
   font-family: $p-stack;
 }
