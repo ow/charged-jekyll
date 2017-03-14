@@ -43,6 +43,8 @@
 
 &lt;p&gt;One last thing on the setup: you should choose a text editor. I&amp;rsquo;m not going to go into all the options available, but my preference is either Sublime Text or Visual Studio Code, which I eventually settled on. It&amp;rsquo;s good, and natively integrates into Windows really well.&lt;/p&gt;
 
+&lt;p&gt;If you use Visual Studio Code, once it&amp;rsquo;s installed, fire it up and push &lt;code&gt;CTRL + SHIFT + P&lt;/code&gt; then search for &amp;ldquo;shell&amp;rdquo; and choose install &lt;code&gt;code&lt;/code&gt; into your path – this will let you open it much easier in later steps.&lt;/p&gt;
+
 &lt;h4&gt;Tweak your terminal&lt;/h4&gt;
 
 &lt;div class=&quot;no-pull center&quot;&gt;
