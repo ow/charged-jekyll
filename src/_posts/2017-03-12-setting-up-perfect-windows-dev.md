@@ -40,6 +40,8 @@ Once you're there, scroll down to `Windows Subsystem for Linux (Beta)` and check
 Now it's time to install Node natively in Windows. You're probably never going to use it since you'll be living in WSL-land, but a few of the desktop-side apps still sometimes need it, and things can get funky if you don't do it. [Grab the Windows installer here](https://nodejs.org/en/download/), and just do the defaults. 
 
 One last thing on the setup: you should choose a text editor. I'm not going to go into all the options available, but my preference is either Sublime Text or Visual Studio Code, which I eventually settled on. It's good, and natively integrates into Windows really well.
+
+If you use Visual Studio Code, once it's installed, fire it up and push `CTRL + SHIFT + P` then search for "shell" and choose install `code` into your path – this will let you open it much easier in later steps.
  
 #### Tweak your terminal
 <div class="no-pull center">
