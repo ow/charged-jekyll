@@ -15,6 +15,19 @@
     font-weight: 700;
     background: transparent;
     border: none;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+
+    .full-button {
+    color: #E43E3A;
+    background: white;
+    padding: 14px;
+    border-radius: 0px;
+    right: 15px;
+    top: 6px;
+    top: 1px;
+    font-size: 15px;
   }
 
   .collapse-hide {
@@ -153,12 +166,12 @@
       border-radius: 0px;
       color: $brand-primary;
       right: 15px;
-      top: 0px;
+      top: 5px;
     }
 
     input {
       border-bottom: 3px solid white;
-      font-size: 14px;
+      font-size: 12px;
       padding: 10px 10px 5px 5px;
       &::placeholder {
         font-size: 14px;

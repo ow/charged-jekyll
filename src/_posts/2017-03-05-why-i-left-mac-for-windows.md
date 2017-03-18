@@ -10,7 +10,7 @@ type: post
 comments: true
 description: "I'm a die-hard Apple user, but after years of watching the Mac slowly die, I've switched back to Windows. Here's the story of why I moved back to Windows, and what I've found so far."
 ---
-If you ask anyone who knows me, I'm probably the biggest Apple fan they know. Ask for a suggestion of what computer to get, and I'll almost certainly either tell you the MacBook Pro, or to wait, because Apple is about to update its hardware finally.
+If you ask anyone who knows me, I'm probably the biggest Apple fan they know. Ask for a suggestion of what computer to get, and I'll almost certainly either tell you the MacBook Pro, or to wait, because Apple is about to update its hardware finally. 
 
 But recently, I realized I'd gotten tired of Apple's attitude toward the desktop. The progress in macOS land has basically been dead since Yosemite, two years ago, and Apple's updates to the platform have been incredibly small. I'm a developer, and it seems to me Apple doesn't pay any attention to its software or care about the hundreds of thousands of developers that have embraced the Mac as their go-to platform.
  
@@ -87,6 +87,7 @@ If you're a Mac user sitting, waiting for Apple to *maybe* release a real workho
 
 ![](/assets/images/mika.jpg)
 
+**Update: [I've written about how I switched my coding setup to Windows as well, with a complete guide on how to get started.](http://char.gd/microsoft/setting-up-perfect-windows-dev/)**
 
 <script>
 
