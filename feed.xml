@@ -114,6 +114,8 @@
 
 &lt;p&gt;One last thing on the setup: you should choose a text editor. I&amp;rsquo;m not going to go into all the options available, but my preference is either Sublime Text or Visual Studio Code, which I eventually settled on. It&amp;rsquo;s good, and natively integrates into Windows really well.&lt;/p&gt;
 
+&lt;p&gt;If you use Visual Studio Code, once it&amp;rsquo;s installed, fire it up and push &lt;code&gt;CTRL + SHIFT + P&lt;/code&gt; then search for &amp;ldquo;shell&amp;rdquo; and choose install &lt;code&gt;code&lt;/code&gt; into your path – this will let you open it much easier in later steps.&lt;/p&gt;
+
 &lt;h4&gt;Tweak your terminal&lt;/h4&gt;
 
 &lt;div class=&quot;no-pull center&quot;&gt;
@@ -278,7 +280,7 @@
       
         <item>
           <title>Why I left Mac for Windows: Apple has given up</title>
-          <description>&lt;p&gt;If you ask anyone who knows me, I&amp;rsquo;m probably the biggest Apple fan they know. Ask for a suggestion of what computer to get, and I&amp;rsquo;ll almost certainly either tell you the MacBook Pro, or to wait, because Apple is about to update its hardware finally.&lt;/p&gt;
+          <description>&lt;p&gt;If you ask anyone who knows me, I&amp;rsquo;m probably the biggest Apple fan they know. Ask for a suggestion of what computer to get, and I&amp;rsquo;ll almost certainly either tell you the MacBook Pro, or to wait, because Apple is about to update its hardware finally. &lt;/p&gt;
 
 &lt;p&gt;But recently, I realized I&amp;rsquo;d gotten tired of Apple&amp;rsquo;s attitude toward the desktop. The progress in macOS land has basically been dead since Yosemite, two years ago, and Apple&amp;rsquo;s updates to the platform have been incredibly small. I&amp;rsquo;m a developer, and it seems to me Apple doesn&amp;rsquo;t pay any attention to its software or care about the hundreds of thousands of developers that have embraced the Mac as their go-to platform.&lt;/p&gt;
 
@@ -355,6 +357,8 @@
 &lt;p&gt;If you&amp;rsquo;re a Mac user sitting, waiting for Apple to &lt;em&gt;maybe&lt;/em&gt; release a real workhorse computer so you can actually do your work, stop what you&amp;rsquo;re doing and take another look at Windows. It&amp;rsquo;s awesome, and now you&amp;rsquo;ll be able to get something with incredible power for a great price that&amp;rsquo;s actually worth using.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/mika.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update: &lt;a href=&quot;http://char.gd/microsoft/setting-up-perfect-windows-dev/&quot;&gt;I&amp;rsquo;ve written about how I switched my coding setup to Windows as well, with a complete guide on how to get started.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;script&gt;
 
