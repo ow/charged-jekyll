@@ -28,6 +28,8 @@
 
 &lt;p&gt;A lot of people highlight that Electron apps tend to use more memory than others, but that claim tends to be overblown, or just simply out-dated. Nylas&amp;rsquo; desktop email app uses just 80MB of Memory, while Slack only uses 166MB — developers might loudly complain that&amp;rsquo;s too much, but given modern machines tend to have more than 8GB of RAM onboard, what does it matter?&lt;/p&gt;
 
+&lt;p&gt;&lt;a href=&quot;https://slack.engineering/reducing-slacks-memory-footprint-4480fec7e8eb#.3wedumcyc&quot;&gt;Companies like Slack are addressing that head-on&lt;/a&gt;. A post this month said that the company is already addressing memory concerns (most of which happen to outlying users that are signed into many teams) and that it&amp;rsquo;s entirely resolvable — it just takes smart decisions.&lt;/p&gt;
+
 &lt;p&gt;Another popular complaint is that Electron-based apps don&amp;rsquo;t look and feel as good as their native counterparts. That might be true for some, but Nylas Mail looks just as good as Apple&amp;rsquo;s own default mail client, and Slack blends just like everything else.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/nylas.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
