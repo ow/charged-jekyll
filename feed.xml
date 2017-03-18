@@ -235,6 +235,11 @@
 
 &lt;p&gt;Working with nginx or just Jekyll server under Ubuntu? The ports that they create are automatically exposed to Windows, so you can work directly in your desktop browser without any messing around.&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;Chocolatey&lt;/strong&gt;
+If you&amp;rsquo;re using a Mac right now, you probably know Homebrew really well. On Windows, there&amp;rsquo;s something just like it called &lt;a href=&quot;https://chocolatey.org/&quot;&gt;Chocolatey&lt;/a&gt;. I had missed this entirely, having not been in the Windows world for a while, but it&amp;rsquo;s a life saver.&lt;/p&gt;
+
+&lt;p&gt;Basically, install Chocolatey and you can grab anything into the &lt;strong&gt;Windows&lt;/strong&gt; environment easily. For instance, I just needed a copy of the Android Developer Tools, so I ran &lt;code&gt;choco install adb&lt;/code&gt; and it just worked!&lt;/p&gt;
+
 &lt;h4&gt;Sort-of broken stuff&lt;/h4&gt;
 
 &lt;p&gt;&lt;strong&gt;Fonts&lt;/strong&gt;&lt;/p&gt;
@@ -270,6 +275,8 @@
 &lt;p&gt;I&amp;rsquo;m using a desktop for the most part, but I&amp;rsquo;m going to be trialling the 2017 Razer Blade, to see how it stacks up in the coming weeks — so look out for the next part in this series.&lt;/p&gt;
 
 &lt;p&gt;This post will be updated over time, as I use Bash/WSL more — if you have any questions or want me to try anything, throw them in the comments!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Last updated: March 18, 2017.&lt;/strong&gt;&lt;/p&gt;
 </description>
           <pubDate>2017-03-11T00:00:00+01:00</pubDate>
           <link>http://char.gd/microsoft/setting-up-perfect-windows-dev/</link>
