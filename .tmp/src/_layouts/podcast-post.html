@@ -1,0 +1,48 @@
+---
+layout: podcast
+---
+<div class="contents">
+  <article class="post-page" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="podcast">
+    <div class="row">
+      <div class="col-lg-6 col-lg-offset-3">
+        <header class="post-header">
+          <span class="post-meta muted uppercase"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</span>
+          <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+        </header>
+        {%if page.featured%}
+          <img class="featured post-image" src="{{page.featured}}">
+        {% endif %}
+        <div class="soundcloud-holder">{{ page.soundcloud }}</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 col-lg-offset-3">
+        <div class="post-content" itemprop="articleBody">
+          {{ content }}
+        </div>
+        <div class="separator">
+          <hr>
+        </div>
+        <div class="upsell center">
+          <p class="muted">Charged podcast is brought to you by </p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-lg-offset-3 center authors">
+        <img class="dp" src="/assets/images/ow.jpg">
+        <p class="bold">Owen Williams</p>
+        <p>Owen was previously Editor at The Next Web and now runs digital at VanMoof in Amsterdam. He created Charged newsletter, and is probably far too obsessed with keeping up with everything in tech.</p>
+      </div>
+      <div class="col-lg-3 center authors">
+        <img class="dp" src="/assets/images/je.jpg">
+        <p class="bold">John Edgar</p>
+        <p>John likes music and weird things and hot pics. He's the co-founder and ceo at Stae and the former Chief Technology Evangelist and VP, strategy at Digital Ocean. John has been in love with the internets since forever.</p>
+      </div>
+    {% if page.comments %}
+    <div class="col-lg-6 col-lg-offset-3">
+      {% include disqus.html %}
+    </div>
+    {% endif %}
+  </div>
+  </article>
+</div>
