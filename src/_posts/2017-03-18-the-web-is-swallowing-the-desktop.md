@@ -13,7 +13,7 @@ While we weren't watching, over the last two years the web has quickly begun swa
 
 The idea of major applications on your desktop, that you use every day, being entirely web-based was pretty far-fetched a few years ago — many people were skeptical that the web could ever supercede desktop apps in both performance, or usability.
 
-Now, in 2017, many web-based desktop apps are fantastic — and we're using them daily, often without even knowing. Last week, I realized that most of the applications I use every day are web-based, with the exception of a handful of heavier tools like Photoshop and Audition.
+Now, in 2017, many web-based desktop apps are fantastic — and we're using them daily, often without even knowing. Last week, I realized that most of the applications I use every day are web-based, with the exception of a handful of heavier tools like PhotoShop and Audition.
 
 <blockquote class="twitter-tweet tw-align-center" data-lang="en"><p lang="en" dir="ltr">Realized the majority of the apps I use every day are Electron. The web is swallowing the desktop. <a href="https://t.co/t27L5U9roo">pic.twitter.com/t27L5U9roo</a></p>&mdash; Owen ⚡️ (@ow) <a href="https://twitter.com/ow/status/842095992753295361">March 15, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -53,13 +53,13 @@ Another popular complaint is that Electron-based apps don't look and feel as goo
 
 The best part about this transition is end-users basically haven't noticed. Millions of people are happily using Slack every day, and it helps them get their job done. 
 
-An example of how a business model can be disrupted by Electron is already underway. Sketch's design tool that hundreds of thousands of designers use famously only works on a Mac — [there are hundreds of people looking for alternatives on Google](https://www.google.nl/search?q=sketch+windows&oq=sketch+windows&aqs=chrome..69i57j0l5.1448j0j4&sourceid=chrome&ie=UTF-8), and as far as anyone can tell, it's an [intentional ommission](http://bohemiancoding.com/sketch/support/faq/02-general/5-windows.html):
+An example of how a business model can be disrupted by Electron is already underway. Sketch's design tool that hundreds of thousands of designers use famously only works on a Mac — [there are hundreds of people looking for alternatives on Google](https://www.google.nl/search?q=sketch+windows&oq=sketch+windows&aqs=chrome..69i57j0l5.1448j0j4&sourceid=chrome&ie=UTF-8), and as far as anyone can tell, it's an [intentional omission](http://bohemiancoding.com/sketch/support/faq/02-general/5-windows.html):
 
 > "Sketch relies on a lot of technology that is exclusive to OS X and the fact that no other OS provide a clear business model for software development, we’re not considering supporting it."
 
 Great, but there are thousands of Windows designers out there too... so what do they use? Is there not a paid market for them to use too? 
 
- Well, as it turns out, [Figma](figma.com), a new entrant in the market that offers a web-based offering *also* has an Electron app, and it can directly import Sketch files too. 
+ Well, as it turns out, [Figma](http://figma.com), a new entrant in the market that offers a web-based offering *also* has an Electron app, and it can directly import Sketch files too. 
 
 In my mind, it's only a matter of time before the tool that works everywhere eventually beats out the tool that's restricted to slow releases on a single platform — oh, and [Figma literally ships a platform update every other week.](http://releases.figma.com/)
 
