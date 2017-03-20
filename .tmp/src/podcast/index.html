@@ -1,0 +1,59 @@
+---
+layout: podcast
+tags: podcast
+image: /assets/images/OG-image.png
+description: "A weekly technology podcast that gives you the best of tech news, without the fluff. Get the news in 60 minutes or less with a bit of fun."
+paginate:
+  collection: podcasts
+  reversed: true
+  per_page: 5
+  permalink: /:num/
+---
+<div class="contents">
+<div class="col-lg-6 col-lg-offset-3">
+  <div class="home">
+    {% for podcast in paginator.podcasts %}
+      <div class="post-contain {% if podcast.type == 'post' %}post{% elsif podcast.type=='podcast'%}podcast{%endif%}">
+        <a class="post-link" href="{{ podcast.url | prepend: site.baseurl }}" id="{{forloop.index}}"><h2>{{ podcast.title }}</h2></a>
+        {% if podcast.image %}
+        <img class="featured" src="{{ podcast.image }}">
+        {% endif %}
+        <p class="excerpt">{{podcast.description}}</p>
+        <div class="length" id="length-{{forloop.index}}">
+        {% if podcast.time %}
+          <p>Listening time: {{ podcast.time }}</p>
+        {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+  <div class="col-lg-3 col-lg-offset-3 paginate">
+    {% if paginator.next_page_path != null %}
+      <a href="{{paginator.next_page_path}}">← Older podcasts</a>
+    {% endif %}
+  </div>
+  <div class="col-lg-3 pull-right paginate">
+    {% if paginator.previous_page_path != null %}
+    <a class="newer" href="{{paginator.previous_page_path}}">Newer podcasts →</a>
+    {% endif %}
+  </div>
+  <div class="col-lg-6 col-lg-offset-3">
+  <div class="separator">
+    <hr>
+  </div>
+  <div class="upsell center">
+    <p class="muted">Charged podcast is brought to you by</p>
+  </div>
+  </div>
+  <div class="col-lg-3 col-lg-offset-3 center authors">
+  <img class="dp" src="/assets/images/ow.jpg">
+    <p class="bold">Owen Williams</p>
+    <p>Owen was previously Editor at The Next Web and now runs digital at VanMoof in Amsterdam. He created Charged newsletter, and is probably far too obsessed with keeping up with everything in tech.</p>
+  </div>
+  <div class="col-lg-3 center authors">
+    <img class="dp" src="/assets/images/je.jpg">
+    <p class="bold">John Edgar</p>
+    <p>John likes music and weird things. He's the co-founder and CEO at Stae and the former Chief Technology Evangelist and VP, strategy at Digital Ocean. He's been in love with the internets since forever.</p>
+  </div>
+</div>
