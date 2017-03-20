@@ -1397,6 +1397,9 @@ pre {
   .form-control::-webkit-input-placeholder {
     color: #999;
     opacity: 1; }
+  .form-control::-moz-placeholder {
+    color: #999;
+    opacity: 1; }
   .form-control:-ms-input-placeholder {
     color: #999;
     opacity: 1; }
@@ -2998,8 +3001,10 @@ input[type="button"].btn-block {
 
 @media (min-width: 544px) {
   .card-columns {
-    column-count: 3;
-    column-gap: 1.25rem; }
+    -moz-column-count: 3;
+         column-count: 3;
+    -moz-column-gap: 1.25rem;
+         column-gap: 1.25rem; }
     .card-columns .card {
       display: inline-block;
       width: 100%; } }
@@ -5041,6 +5046,9 @@ article {
     font-size: 12px;
     padding: 10px 10px 5px 5px; }
     .convert .header input::-webkit-input-placeholder {
+      font-size: 14px;
+      color: white; }
+    .convert .header input::-moz-placeholder {
       font-size: 14px;
       color: white; }
     .convert .header input:-ms-input-placeholder {
