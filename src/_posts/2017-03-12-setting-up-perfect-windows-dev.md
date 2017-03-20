@@ -155,6 +155,11 @@ The same works for other Windows tools, like Sublime Text.
 
 Working with nginx or just Jekyll server under Ubuntu? The ports that they create are automatically exposed to Windows, so you can work directly in your desktop browser without any messing around.
 
+**Chocolatey**
+If you're using a Mac right now, you probably know Homebrew really well. On Windows, there's something just like it called [Chocolatey](https://chocolatey.org/). I had missed this entirely, having not been in the Windows world for a while, but it's a life saver.
+
+Basically, install Chocolatey and you can grab anything into the **Windows** environment easily. For instance, I just needed a copy of the Android Developer Tools, so I ran `choco install adb` and it just worked!
+
 #### Sort-of broken stuff
 
 **Fonts**
@@ -190,3 +195,5 @@ Windows 10 is actually really enjoyable to use, finally supports High-DPI screen
 I'm using a desktop for the most part, but I'm going to be trialling the 2017 Razer Blade, to see how it stacks up in the coming weeks — so look out for the next part in this series.
 
 This post will be updated over time, as I use Bash/WSL more — if you have any questions or want me to try anything, throw them in the comments!
+
+**Last updated: March 18, 2017.**
